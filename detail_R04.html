@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE OUTSET</title>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/outset.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartHave" class="cartPanel haveCart">
+        <div>
+            <h2>
+                Your Cart
+                <input type="button" value="close" class="closeCart btnClose">
+            </h2>
+            <ul>
+                <li>
+                    <b>1 item</b>
+                    <strong class="price">50.00</strong>
+                </li>
+                <li>
+                    <b>Shipping</b>
+                    <strong>calculated at checkout</strong>
+                </li>
+            </ul>
+            <div>
+                <p>
+                    <strong>TOTAL</strong>
+                    Shipping+taxes calculated at checkout
+                </p>
+                <strong class="totalPrice price">50.00</strong>
+            </div>
+            <a href="checkOut.html" class="sign_Btn">CHECKOUT</a>
+        </div>
+        <figure>
+            <input type="button" value="remove" class="removeBtn" data-panel="cartEmpty">
+            <img src="images/R04_dt_02.png" alt="Order product image">
+            <figcaption>
+                <b>NOURISHING SQUALANE DAILY MOISTURIZER REFILLS</b>
+                <span>The Moisturizer</span>
+                <span>Size OZ</span>
+                <div>
+                    <div class="countP">
+                        <input type="button" value="-">
+                        <SPAN>1</SPAN>
+                        <input type="button" value="+">
+                    </div>
+                    <strong class="price">50.00</strong>
+                </div>
+            </figcaption>
+        </figure>   
+    </div>
+    
+    <div id="cartEmpty" class="cartPanel">
+        <h2>
+            Your Cart
+            <input type="button" value="close" class="closeCart btnClose">
+        </h2>
+        <b>YOU HAVE NO ITEMS IN YOUR CART.</b>
+        <p>Login to find your registered basket or continue your purchase on the site.</p>
+        <input type="button" value="START SHOPPING" class="sign_Btn closeCart">
+    </div>
+    <header>
+        <ol class="verticalSlider">
+            <li class="active"><a href="list_All.html">Enjoy free shipping on all orders</a></li>
+            <li><a href="footer_Subscription.html">NEW! Subscribe & Save 20% on your favorite products!</a></li>
+            <li><a href="account_JoinPage.html">Sign up for The Outset newsletter + enjoy 15% off!</a></li>
+        </ol>
+        <div>
+            <h1>
+                <a href="index_after.html">
+                    <img src="images/Logo.png" alt="Welcome to THE OUTSET">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li class="active"><a href="list_All.html">Skin Care</a></li>
+                    <li><a href="ethos_ConsciouslyClean.html">Product Ethos</a></li>
+                    <li><a href="regimen_DiscoverTheRegimen.html">The Regimen</a></li>
+                    <li><a href="about_OurStory.html">About Us</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="menu" data-popup="gnb" class="menu material-icons">
+        </div>
+
+        <div id="gnb">
+            <div>
+                <h2>
+                    THE OUTSET IS WHERE YOU BEGIN AGAIN.
+                </h2>
+                <input type="button" value="close" class="btnClose">
+                <div>
+                    <h3>Skin Care</h3>
+                    <ul>
+                        <li><a href="list_All.html">All</a></li>
+                        <li><a href="list_Best.html">Best</a></li>
+                        <li><a href="list_Bundle.html">Bundle</a></li>
+                        <li><a href="list_Refills.html">Refills</a></li>
+                        <li><a href="list_SkinCare.html">Skin care</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Product Ethos</h3>
+                    <ul>
+                        <li><a href="ethos_ConsciouslyClean.html">Consciously clean</a></li>
+                        <li><a href="ethos_MindfullyDesigned.html">Mindfully designed</a></li>
+                        <li><a href="ethos_Hyaluroset™Complex.html">Hyaluroset™ complex</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>The Regimen</h3>
+                    <ul>
+                        <li><a href="regimen_DiscoverTheRegimen.html">Discover The Regimen</a></li>
+                        <li><a href="regimen_Free.html">Free list</a></li>
+                        <li><a href="regimen_Ingredient.html">Ingredient list</a></li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="about_OurStory.html">Our story</a></li>
+                        <li><a href="about_OurCause.html">Our cause</a></li>
+                        <li><a href="about_OurManifesto.html">Our manifesto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact US</h3>
+                    <ul>
+                        <li><a href="footer_ContactUS.html">Contact US</a></li>
+                    </ul>
+                </div>
+                <ol>
+                    <li><a href="myPage.html">YEON</a></li>
+                    <li><input type="button" value="CART" class="openCart" data-panel="cartHave"></li>
+                    <li><input type="search" placeholder="Search"></li>
+                    <li><a href="index.html">LOGOUT</a></li>
+                </ol>
+                <div>
+                    <h3>MY PAGE</h3>
+                    <ul>
+                        <li><a href="myPage.html">ORDER</a></li>
+                        <li><a href="myPage.html">ADDRESSES</a></li>
+                        <li><a href="myPage.html">SUBSCRIPTIONS</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SNS</h3>
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        tiktok
+                    </a>
+                    <a href="https://www.instagram.com/theoutset/" target="_blank">
+                        instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="detailContainer detailType02 sc04">   
+        <div class="fullBox">
+            <div>
+                <div class="sliderBox">
+                    <ul class="detailSlider">
+                        <li><img src="images/R04_dt_01.png" alt="first product moisturizer refils image"></li>
+                        <li><img src="images/R04_dt_02.png" alt="second product moisturizer refils image"></li>
+                        <li><img src="images/S04_dt_03.png" alt="third product moisturizer refils image"></li>
+                    </ul>
+                    <ol class="detailPager">
+                        <li><a href="#" data-slide-index="0"><img src="images/R04_dt_01.png" alt="product moisturizer refills thumbNail1"></a></li>
+                        <li><a href="#" data-slide-index="1"><img src="images/R04_dt_02.png" alt="product moisturizer refills thumbNail2"></a></li>
+                        <li><a href="#" data-slide-index="2"><img src="images/S04_dt_03.png" alt="product moisturizer refills thumbNail3"></a></li>
+                    </ol>
+                </div>
+                <div>
+                    <mark>THE OUTSET IS WHERE YOU BEGIN AGAIN.</mark>
+                    <h2>Nourishing Squalane Daily Moisturizer</h2>
+                    <strong>The Moisturizer</strong>
+                    <div>
+                        <span>
+                            <small>Price</small>
+                            50
+                        </span>
+                        <input type="button" value="CART" class="btnCart" data-popup="cartHave" >
+                        <a href="checkOut.html">BUY IT NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fixed. -->
+        
+        <div class="productDetails01">
+            <ul class="barMenu prDetail">
+                <li><a href="#prDetail"class="active">Product Details</a></li>
+                <li><a href="#qa">Q&amp;A</a></li>
+                <li><a href="#items">Related Items</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+            <h3>Quench. Calm. Boost Resilience.</h3>
+            <figure>
+                <img src="images/R04_dt_02.png" alt="product moisturizer refils">
+                <figcaption>
+                    <!-- ordering -->
+                    <h4>NOURISHING SQUALANE DAILY MOISTURIZER REFILLS</h4>
+                    <p>The essential third step to nourish the skin.</p>
+                    <p>This lightweight, clinically proven moisturizer provides immediate and long-lasting, 24-hour hydration. It is packed with soothing botanical extracts to reduce the look redness and improve skin's texture and tone.</p>
+                </figcaption>
+            </figure>
+            <div class="fullBox ingredientPart">
+                <img src="images/S04_dt_bt.png" alt="moisturizer bottle">
+                <p>
+                    This soothing moisturizer feels silky and lightweight, never heavy or greasy.
+                    <span>delivers clean 24-hour hydration that infuses your skin with essential moisture + nutrients.</span>
+                </p>
+                <div>
+                    <mark>SQUALANE</mark>
+                    <mark>AVOCADO OIL</mark>
+                    <mark>PLUM OIL</mark>
+                </div>
+                <ul>
+                    <li>Smooths + Moisturizes </li>
+                    <li>Rich in fatty acids to nourish skin</li>
+                    <li>Soothes+ Hydrates</li>
+                </ul>
+            </div>
+            <div class="fullBox howto">
+                <div>
+                    <h2>
+                        HOW TO REFILL
+                    </h2>
+                    <div>
+                        <ul>
+                            <li>
+                                <img src="images/R_dt_how_01.png" alt="open the lid of an empty bottle">
+                                <p>Remove the cap and gently unscrew the pump from the empty bottle</p>
+                            </li>
+                            <li>
+                                <img src="images/R_dt_how_02.png" alt="Open the lid of the refill and fill the empty bottle">
+                                <p>Unscrew the cap on the refill pouch and line the nozzle up with the empty bottle.</p>
+                            </li>
+                            <li>
+                                <img src="images/R_dt_how_03.png" alt="Fill up to the outset logo and close the lid">
+                                <p>gently press from the bottom of the pouch until your bottle is filled to just above the outset logo</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="resultArea">
+                <ul>
+                    <li>
+                        <strong>RESULTS AFTER 1 USE</strong>
+                        <mark>95%</mark> Agree this soothes their skin and was gentle and non-irritating
+                    </li>
+                    <li>
+                        <strong>RESULTS AFTER 10 USE</strong>
+                        <mark>95%</mark> Agree this provides immediate and long-lasting hydration
+                    </li>
+                    <li>
+                        <strong>RESULTS AFTER 28 USE</strong>
+                        <mark>92%</mark> Agree this leaves skin feeling soft, smooth and nourished
+                    </li>
+                </ul>
+                <ol>
+                    <li>
+                        <strong>95%</strong>
+                        <span>AGREE THIS PROVIDES IMMEDIATE HYDRATION TO THEIR SKIN</span>
+                    </li>
+                    <li>
+                        <strong>95%</strong>
+                        <span>AGREE THIS IS GENTLE AND NON-IRRITATING</span>
+                    </li>
+                    <li>
+                        <strong>92%</strong>
+                        <span>AGREE THIS SOOTHES THEIR SKIN</span>
+                    </li>
+                    <li>
+                        <strong>90%</strong>
+                        <span>AGREE THIS PROVIDES LONG-LASTING HYDRATION</span>
+                    </li>
+                </ol>
+                <p>INDEPENDENT CONSUMER STUDY 37 PEOPLE 28 DAY</p>            
+            </div>
+            <div>
+                <h2>WHY IT'S SPECIAL?</h2>
+                <img src="images/sp_dt_01.png" alt="a sleeping woman image">
+                <img src="images/sp_dt_04.png" alt="applying cream image">
+                <p>Developed for Scarlett Johansson's sensitive skin, the lightweight formula is buildable, breathable and delivers balancing hydration for all skin types.</p>        
+                <p>It is packed with soothing botanical extracts to reduce the look redness and improve skin's texture and tone.</p>
+            </div>
+            <table class="desTable">
+                <caption>Product description</caption>
+                <tr>
+                    <th>Name of product</th>
+                    <td>NOURISHING SQUALANE DAILY MOISTURIZER REFILL</td>
+                </tr>
+                <tr>
+                    <td>NOURISHING SQUALANE DAILY MOISTURIZER REFILL</td>
+                    <th>Net weight</th>
+                    <td>2.5 FL OZ</td>
+                </tr>
+                <tr>
+                    <td>2.5 FL OZ</td>
+                    <th>Free Test</th>
+                    <td>Cruelty free, Vegan, Derpatologist tested,Gruten free, Fragrance free, Allergy tested, Slicone free, Nut allergen free, Sultable for sensitive skin, Non-comedogencic</td>
+                </tr>
+                <tr>
+                    <td>Cruelty free, Vegan, Derpatologist tested,Gruten free, Fragrance free, Allergy tested, Slicone free, Nut allergen free, Sultable for sensitive skin, Non-comedogencic</td>
+                    <th>How to use</th>
+                    <td>After cleansing and prepping with a few drops of serum, smooth moisturizer gently into the face and neck.</td>
+                </tr>
+                <tr>
+                    <td>After cleansing and prepping with a few drops of serum, smooth moisturizer gently into the face and neck.</td>
+                    <th>Ingredients</th>
+                    <td>
+                        <div>
+                            Water (Aqua, Eau), Caprylic/Capric Triglyceride, Pentylene Glycol, Glycerin, Ethylhexyl Palmitate, Cetearyl Alcohol, Squalane,Cassia Angustifolia Seed Polysaccharide, Helianthus Annuus (Sunflower) Seed Oil, Cocos Nucifera (Coconut) Oil, CarthamusTinctorius (Safflower) Seed Oil, Persea Gratissima (Avocado) Oil, Humulus Lupulus (Hops) Extract, Helianthus Annuus(Sunflower) Extract, Helianthus Annuus (Sunflower) Seed Wax, Rosmarinus Officinalis (Rosemary) Leaf Extract, AloeBarbadensis Leaf Juice, Prunus Insititia Seed Oil, Oryza Sativa (Rice) Bran Extract, Fucus Vesiculosus Extract, Leuconostoc/Radish Root Ferment Filtrate, Leontopodium Alpinum Extract, Glycine Soja (Soybean) Oil, Jojoba Esters, Dicaprylyl Ether,Diheptyl Succinate, Glyceryl Stearate, Carbomer, Phenoxyethanol, Citric Acid, Hydrogenated Vegetable Oil, Xanthan Gum,Polyglycerin-3, Caprylyl Glycol, Capryloyl Glycerin/Sebacic Acid Copolymer, Tocopheryl Acetate, Tocopherol, TetrasodiumGlutamate Diacetate, Potassium Hydroxide, Potassium Sorbate, Sodium Benzoate, Sodium Formate, Sodium Glycolate,Sodium Hydroxide, Sodium Stearoyl Glutamate.
+                            <ul>
+                                <li>• Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that nourishes, plumps and smooths.</li>
+                                <li>• Squalane: sourced from olives, this emollient mimics the skin's natural oils to leave skin feeling smooth and moisturized.</li>
+                                <li>• Hops Extract: conditions and soothes skin.</li>
+                                <li>• Edelweiss Extract: known to provide twice the antioxidant power of Vitamin C, this extract helps to soothe and brighten skin.</li>
+                                <li>• Red Rice Extract: hydrates and protects the skin from free radicals.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            Water (Aqua, Eau), Caprylic/Capric Triglyceride, Pentylene Glycol, Glycerin, Ethylhexyl Palmitate, Cetearyl Alcohol, Squalane,Cassia Angustifolia Seed Polysaccharide, Helianthus Annuus (Sunflower) Seed Oil, Cocos Nucifera (Coconut) Oil, CarthamusTinctorius (Safflower) Seed Oil, Persea Gratissima (Avocado) Oil, Humulus Lupulus (Hops) Extract, Helianthus Annuus(Sunflower) Extract, Helianthus Annuus (Sunflower) Seed Wax, Rosmarinus Officinalis (Rosemary) Leaf Extract, AloeBarbadensis Leaf Juice, Prunus Insititia Seed Oil, Oryza Sativa (Rice) Bran Extract, Fucus Vesiculosus Extract, Leuconostoc/Radish Root Ferment Filtrate, Leontopodium Alpinum Extract, Glycine Soja (Soybean) Oil, Jojoba Esters, Dicaprylyl Ether,Diheptyl Succinate, Glyceryl Stearate, Carbomer, Phenoxyethanol, Citric Acid, Hydrogenated Vegetable Oil, Xanthan Gum,Polyglycerin-3, Caprylyl Glycol, Capryloyl Glycerin/Sebacic Acid Copolymer, Tocopheryl Acetate, Tocopherol, TetrasodiumGlutamate Diacetate, Potassium Hydroxide, Potassium Sorbate, Sodium Benzoate, Sodium Formate, Sodium Glycolate,Sodium Hydroxide, Sodium Stearoyl Glutamate.
+                            <ul>
+                                <li>• Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that nourishes, plumps and smooths.</li>
+                                <li>• Squalane: sourced from olives, this emollient mimics the skin's natural oils to leave skin feeling smooth and moisturized.</li>
+                                <li>• Hops Extract: conditions and soothes skin.</li>
+                                <li>• Edelweiss Extract: known to provide twice the antioxidant power of Vitamin C, this extract helps to soothe and brighten skin.</li>
+                                <li>• Red Rice Extract: hydrates and protects the skin from free radicals.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="qandA" >
+            <ul class="barMenu qa">
+                <li><a href="#prDetail">Product Details</a></li>
+                <li><a href="#qa" class="active">Q&amp;A</a></li>
+                <li><a href="#items">Related Items</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+
+            <div>
+                <h2>
+                    <strong>Q&#38;A</strong>
+                    FREQUENTLY ASKED QUESTIONS
+                </h2>
+                <ul class="accordionQA">
+                    <li>
+                        <b>WHY SHOULD I BUY THIS REFILL?</b>
+                        <p>Our refill pouch is a cost-effective way to save on your favorite prep serum! It contains 50% more product than our standard bottle and offers more value so you can order less frequently.</p>
+                    </li>
+                    <li>
+                        <b>HOW LONG WILL THIS REFILL LAST?</b>
+                        <p>This refill pouch contains 50% more product than our standard size and should last you 2.5 months.</p>
+                    </li>
+                    <li>
+                        <b>WHAT OTHER PRODUCTS PAIR WELL WITH THIS ONE?</b>
+                        <p>For best results, use this in combination with the Gentle Micellar Antioxidant Cleanser and Firming Vegan Collagen Prep serum in the Daily Essentials Regimen. These three steps are all you need for healthy, hydrated and balanced skin.</p>
+                    </li>
+                    <li>
+                        <b>WHAT SKIN TYPE IS BEST SUITED FOR THIS PRODUCT?</b>
+                        <p>This formula is suitable for all skin types, including sensitive.</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>HAVE A QUESTION?</h2>
+                <p>We’re happy to answer any questions you may have about our products or any other general inquiries. Send us a note!</p>
+                <a href="mailto:help@theoutset.com">Contact US</a>
+            </div>
+        </div>
+
+        <div class="relatedItem">
+            <ul class="barMenu items">
+                <li><a href="#prDetail">Product Details</a></li>
+                <li><a href="#qa">Q&amp;A</a></li>
+                <li><a href="#items" class="active">Related Items</a></li>
+                <li><a href="#reviews" >Reviews</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="detail_S03.html">
+                        <img src="images/re_S03.png" alt="recommend product cleanser">
+                        <p>GENTLE MICELLAR ANTIOXIDANT CLEANSER</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_S02.html">
+                        <img src="images/re_S02.png" alt="recommend product prep serum">
+                        <p>FIRMING VEGAN COLLAGEN PREP SERUM</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_B04.html">
+                        <img src="images/re_B04.png" alt="recommend product regimen bundle">
+                        <p>DAILY ESSENTIALS REGIMEN BUNDLE</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="reviews">
+            <ul class="barMenu reviews" >
+                <li><a href="#prDetail">Product Details</a></li>
+                <li><a href="#qa">Q&amp;A</a></li>
+                <li><a href="#items">Related Items</a></li>
+                <li><a href="#reviews" class="active">Reviews</a></li>
+            </ul>
+
+            <h2>REVIEWS</h2>
+            <div>
+                <span>
+                    <strong>Total Reviews</strong>
+                    <b>10</b>                
+                </span>
+                <span>
+                    <mark>Average Rating</mark>
+                    <b>4.8</b>
+                </span>
+            </div>
+            <div>
+                <form>
+                    <select>
+                        <option value='default' selected>Rating</option>
+                        <option value='5.0'>★★★★★</option>
+                        <option value='4.0'>★★★★</option>
+                        <option value='3.0'>★★★</option>
+                        <option value='2.0'>★★</option>
+                        <option value='1.0'>★</option>
+                    </select>
+                    <select>
+                        <option value='default' selected>Skin Type</option>
+                        <option value='DRY'>DRY</option>
+                        <option value='Combination'>Combination</option>
+                        <option value='Normal'>Normal</option>
+                        <option value='Sensitive'>Sensitive</option>
+                        <option value='Oily'>Oily</option>
+                    </select>
+                    <select>
+                        <option value='default' selected>Age Range</option>
+                        <option value='18 - 24'>18 - 24</option>
+                        <option value='25 - 34'>25 - 34</option>
+                        <option value='35 - 44'>35 - 44</option>
+                        <option value='45 - 54'>45 - 54</option>
+                        <option value='55+'>55+</option>
+                    </select>
+                    <select>
+                        <option value='default' selected>Images &amp; Videos</option>
+                        <option value='Images'>Images</option>
+                        <option value='Videos'>Videos</option>
+                    </select>
+                    <input type="search" placeholder="Search Reviews">
+                </form>
+            </div>
+
+            <ul class="reviewList">
+                <li>
+                    <div>
+                        <strong>LOVE HOW WIT FEELS ON</strong>
+                        <p>Love how wit feels on my skin. Makes my complexion glow.</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>JAYCEE D.</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Combination</dd>
+                        </dl>
+                        <time datetime="2023-01-20">01/20/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>ABSOLUTELY OBSESSED!</strong>
+                        <p>I have loved this setI have loved this set so far! I feel like my skin looks brighter and healthier.</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>MARYCAROLINE</dd>
+                            <dt>Age Range :</dt>
+                            <dd>35 - 44</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>DRY</dd>
+                        </dl>
+                        <time datetime="2023-01-19">01/19/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>AMAZING PRODUCT</strong>
+                        <p>I love that it moisturizes my skin without making it greasy. My skin just feels soft</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>JAYCEE</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Combination</dd>
+                        </dl>
+                        <time datetime="2023-01-17">01/17/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>EXCEEDED MY EXPECTATIONS</strong>
+                        <p>In Love!I love that it is a simple 3 step routine. It is gentle, and my skin is loving it!</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>SARAH</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Normal</dd>
+                        </dl>
+                        <time datetime="2023-01-17">01/17/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>EASY TO USE WITH MINIMAL</strong>
+                        <p>Easy to use with minimalEasy to use with minimal steps.</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>ALYSSA</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Combination</dd>
+                        </dl>
+                        <time datetime="2023-01-10">01/10/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>ABSORBED QUICKLY</strong>
+                        <p>Feels good to take care of my skin. Really enjoying the products.</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0 " class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>MEGAN R</dd>
+                            <dt>Age Range :</dt>
+                            <dd>45 - 54</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Combination</dd>
+                        </dl>
+                        <time datetime="2023-01-10">01/10/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>AMAZING PRODUCTS</strong>
+                        <p>Amazing ProductsI love all 3 of these products! They make my skin feel and look amazing! The moisturizer is perfect when your skin is starting to feel dry.</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>KATIE S.</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25-34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>DRY</dd>
+                        </dl>
+                        <time datetime="2023-01-09">01/09/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>CLEAN AND CLEAR</strong>
+                        <p>My skin is very sensitive and these products feel great on my skin. Very happy and will continue to use them.</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>GERIANNE M</dd>
+                            <dt>Age Range :</dt>
+                            <dd>18 - 24</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Sensitive</dd>
+                        </dl>
+                        <time datetime="2023-01-05">01/05/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>HYDRATING FOR ECZEMA-PRONE SKIN</strong>
+                        <p>Loving the products so far! My skin has cleared up tremendously since I started using them!</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>JENNY P</dd>
+                            <dt>Age Range :</dt>
+                            <dd>35 - 44</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Sensitive</dd>
+                        </dl>
+                        <time datetime="2022-12-25">12/25/22</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>LOVE IT!</strong>
+                        <p>Really love the model of simplifying my skin care routine -- my skin looks great!</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>ALICE T</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>DRY</dd>
+                        </dl>
+                        <time datetime="2022-12-19">12/19/22</time>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="pager">
+                <a href="#" class="material-symbols-outlined">chevron_left</a>
+                <a href="#" class="material-symbols-outlined">chevron_right</a>
+                <ol>
+                    <li><a href="#">1</a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <h2>
+            <a href="index_after.html">
+                <img src="images/Logo.png" alt="GO to main Page">
+            </a>
+        </h2>
+        <a href="footer_TnS.html">Terms of Service</a>
+        <a href="footer_PrivacyPolicy.html">Privacy Policy</a>
+        <ul>
+            <li><a href="about_OurStory.html">About Us</a></li>
+            <li><a href="footer_FAQs.html">FAQs</a></li>
+            <li><a href="footer_Subscription.html">Subscription</a></li>
+            <li><a href="footer_Accessibility.html">Accessibility</a></li>
+            <li><a href="footer_ContactUS.html">Contact Us</a></li>
+            <li><a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftheoutset%2Fabout%2F" target="_blank">Careers</a></li>
+            <li><a href="footer_HQ.html">HQ</a></li>
+            <li><a href="footer_JoinSMS.html">Join SMS for 10% off</a></li>
+            <li><a href="footer_ShippingPolicy.html">Shipping &amp; Return Policy</a></li>
+        </ul>
+        <address>
+            <p>
+                <span>
+                    Name of company : THEOUTSET International Co., Ltd.
+                </span>
+                <span>
+                    Name of representative : Scarlett Johansson's
+                </span>
+            </p>
+            <div>
+                <span>
+                    Address : New York City’s Flatiron district
+                </span>
+                <a href="mailto:help@theoutset.com">Email : help@theoutset.com.</a>
+            </div>
+        </address>
+        <p>© The Outset 2022</p>
+        <span>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img src="images/ico_tiktok.png" alt="Go to Our Tiktok">
+            </a>
+            <a href="https://www.instagram.com/theoutset/" target="_blank">
+                <img src="images/ico_ins.png" alt="Go to Our Instargram">
+            </a>
+        </span>
+    </footer>
+
+</body>
+</html>

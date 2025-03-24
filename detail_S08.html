@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE OUTSET</title>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/outset.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartHave" class="cartPanel haveCart">
+        <div>
+            <h2>
+                Your Cart
+                <input type="button" value="close" class="closeCart btnClose">
+            </h2>
+            <ul>
+                <li>
+                    <b>1 item</b>
+                    <strong class="price">46.00</strong>
+                </li>
+                <li>
+                    <b>Shipping</b>
+                    <strong>calculated at checkout</strong>
+                </li>
+            </ul>
+            <div>
+                <p>
+                    <strong>TOTAL</strong>
+                    Shipping+taxes calculated at checkout
+                </p>
+                <strong class="totalPrice price">46.00</strong>
+            </div>
+            <a href="checkOut.html" class="sign_Btn">CHECKOUT</a>
+        </div>
+        <figure>
+            <input type="button" value="remove" class="removeBtn" data-panel="cartEmpty">
+            <img src="images/S08_dt_01.png" alt="Order product image">
+            <figcaption>
+                <b>PURIFYING BLUE CLAY MASK</b>
+                <span>The Clay Mask</span>
+                <span>Size OZ</span>
+                <div>
+                    <div class="countP">
+                        <input type="button" value="-">
+                        <SPAN>1</SPAN>
+                        <input type="button" value="+">
+                    </div>
+                    <strong class="price">46.00</strong>
+                </div>
+            </figcaption>
+        </figure>   
+    </div>
+    
+    <div id="cartEmpty" class="cartPanel">
+        <h2>
+            Your Cart
+            <input type="button" value="close" class="closeCart btnClose">
+        </h2>
+        <b>YOU HAVE NO ITEMS IN YOUR CART.</b>
+        <p>Login to find your registered basket or continue your purchase on the site.</p>
+        <input type="button" value="START SHOPPING" class="sign_Btn closeCart">
+    </div>
+    
+    <header>
+        <ol class="verticalSlider">
+            <li class="active"><a href="list_All.html">Enjoy free shipping on all orders</a></li>
+            <li><a href="footer_Subscription.html">NEW! Subscribe & Save 20% on your favorite products!</a></li>
+            <li><a href="account_JoinPage.html">Sign up for The Outset newsletter + enjoy 15% off!</a></li>
+        </ol>
+        <div>
+            <h1>
+                <a href="index_after.html">
+                    <img src="images/Logo.png" alt="Welcome to THE OUTSET">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li class="active"><a href="list_All.html">Skin Care</a></li>
+                    <li><a href="ethos_ConsciouslyClean.html">Product Ethos</a></li>
+                    <li><a href="regimen_DiscoverTheRegimen.html">The Regimen</a></li>
+                    <li><a href="about_OurStory.html">About Us</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="menu" data-popup="gnb" class="menu material-icons">
+        </div>
+
+        <div id="gnb">
+            <div>
+                <h2>
+                    THE OUTSET IS WHERE YOU BEGIN AGAIN.
+                </h2>
+                <input type="button" value="close" class="btnClose">
+                <div>
+                    <h3>Skin Care</h3>
+                    <ul>
+                        <li><a href="list_All.html">All</a></li>
+                        <li><a href="list_Best.html">Best</a></li>
+                        <li><a href="list_Bundle.html">Bundle</a></li>
+                        <li><a href="list_Refills.html">Refills</a></li>
+                        <li><a href="list_SkinCare.html">Skin care</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Product Ethos</h3>
+                    <ul>
+                        <li><a href="ethos_ConsciouslyClean.html">Consciously clean</a></li>
+                        <li><a href="ethos_MindfullyDesigned.html">Mindfully designed</a></li>
+                        <li><a href="ethos_Hyaluroset™Complex.html">Hyaluroset™ complex</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>The Regimen</h3>
+                    <ul>
+                        <li><a href="regimen_DiscoverTheRegimen.html">Discover The Regimen</a></li>
+                        <li><a href="regimen_Free.html">Free list</a></li>
+                        <li><a href="regimen_Ingredient.html">Ingredient list</a></li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="about_OurStory.html">Our story</a></li>
+                        <li><a href="about_OurCause.html">Our cause</a></li>
+                        <li><a href="about_OurManifesto.html">Our manifesto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact US</h3>
+                    <ul>
+                        <li><a href="footer_ContactUS.html">Contact US</a></li>
+                    </ul>
+                </div>
+                <ol>
+                    <li><a href="myPage.html">YEON</a></li>
+                    <li><input type="button" value="CART" class="openCart" data-panel="cartHave"></li>
+                    <li><input type="search" placeholder="Search"></li>
+                    <li><a href="index.html">LOGOUT</a></li>
+                </ol>
+                <div>
+                    <h3>MY PAGE</h3>
+                    <ul>
+                        <li><a href="myPage.html">ORDER</a></li>
+                        <li><a href="myPage.html">ADDRESSES</a></li>
+                        <li><a href="myPage.html">SUBSCRIPTIONS</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SNS</h3>
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        tiktok
+                    </a>
+                    <a href="https://www.instagram.com/theoutset/" target="_blank">
+                        instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="detailContainer detailType01 sc08">   
+        <div class="fullBox">
+            <div>
+                <div class="sliderBox">
+                    <ul class="detailSlider">
+                        <li><img src="images/S08_dt_01.png" alt="first product boosting oil image"></li>
+                        <li><img src="images/S08_dt_02.png" alt="second product boosting oil image"></li>
+                        <li><img src="images/S08_dt_03.png" alt="third product boosting oil image"></li>
+                    </ul>
+                    <ol class="detailPager">
+                        <li><a href="#" data-slide-index="0"><img src="images/S08_dt_01.png" alt="product boosting oil thumbNail1"></a></li>
+                        <li><a href="#" data-slide-index="1"><img src="images/S08_dt_02.png" alt="product boosting oil thumbNail2"></a></li>
+                        <li><a href="#" data-slide-index="2"><img src="images/S08_dt_03.png" alt="product boosting oil thumbNail3"></a></li>
+                    </ol>
+                </div>
+                <div>
+                    <mark>THE OUTSET IS WHERE YOU BEGIN AGAIN.</mark>
+                    <h2>Purifying Blue Clay Mask</h2>
+                    <strong>THE Clay Mask</strong>
+                    <div>
+                        <span>
+                            <small>Price</small>
+                            46
+                        </span>
+                        <input type="button" value="CART" class="btnCart" data-popup="cartHave" >
+                        <a href="checkOut.html">BUY IT NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fixed. -->
+        
+        <div class="productDetails01">
+            <ul class="barMenu prDetail">
+                <li><a href="#prDetail"class="active">Product Details</a></li>
+                <li><a href="#qa">Q&amp;A</a></li>
+                <li><a href="#items">Related Items</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+            <h3>Detoxify. Clarify. Balance.</h3>
+            <figure>
+                <img src="images/S08_dt_03.png" alt="product clay mask">
+                <figcaption>
+                    <h4>PURIFYING BLUE CLAY MASK</h4>
+                    <p>This clarifying mask can be used on the T-zone or all over to remove impurities, minimize imperfections and promote a more uniform skin tone.</p>
+                    <p>Bring your skin back into balance with this mineral-rich mask, which  features natural Blue Clay to help to unclog and minimize the look of pores, just a hint of Salicylic Acid to reduce shine without overdrying, and nourishing botanicals to soothe.</p>
+                </figcaption>
+            </figure>
+            <div class="fullBox ingredientPart">
+                <img src="images/S08_dt_bt.png" alt="clay mask">
+                <p>
+                    Our clay mask has a rich, creamy, decadent texture that spreads easily to reveal purified and mattified skin.
+                    <span> delivers instant moisture to leave skin looking and feeling hydrated and healthy.</span>
+                </p>
+                <div>
+                    <mark>PANSY</mark>
+                    <mark>GARDENIA</mark>
+                    <mark>BLUE CLAY</mark>
+                    <mark>NIACINAMIDE + SALICYLIC ACID</mark>
+                </div>
+                <ul>
+                    <li>soothes + calms the skin</li>
+                    <li>Absorbs oil + Mattifies</li>
+                    <li>Helps neutralize free radicals</li>
+                    <li>Improves texture</li>
+                </ul>
+            </div>
+            <div class="fullBox">
+                <div>
+                    <h2>
+                        <mark>
+                            HYALUROSET™ COMPLEX
+                        </mark>
+                        Sourced from the seeds of the Cassia flower
+                    </h2>
+                    <ul>
+                        <li>Delivers immediate and lasting hydration</li>
+                        <li>Plumps skin to smooth the look of fine lines and wrinkles</li>
+                        <li>Boosts radiance</li>
+                    </ul>
+                    <p>
+                        <b>OUTSET’s moisturizing effect,</b>
+                        <strong>WHY YOU'LL LOVE HYALUROSET™ COMPLEX</strong>
+                        Sourced from the seeds of the Cassia flower, our botanical alternative to hyaluronic acid delivers immediate and lasting moisture to plump, smooth and nourish the skin. Hyaluronic acid is a fundamental component of skin, and we wanted to recreate it in a natural, plant-based way.Hyaluroset™ Complex is a botanically-derived ingredient blend that provides the same moisturizing and plumping benefits to the skin.
+                    </p>
+                </div>
+            </div>
+            <div class="resultArea">
+                <ul>
+                    <li>
+                        <strong>RESULTS AFTER 1 USE</strong>
+                        <mark>95%</mark> Agree skin looks more radiant
+                    </li>
+                    <li>
+                        <strong>RESULTS AFTER 10 USE</strong>
+                        <mark>100%</mark> Agree this instantly softens skin
+                    </li>
+                    <li>
+                        <strong>RESULTS AFTER 28 USE</strong>
+                        <mark>97%</mark> Agree this plumps their skin with moisture
+                    </li>
+                </ul>
+                <ol>
+                    <li>
+                        <strong>AFTER 1 DAY: </strong>
+                        <span>97% AGREE THIS LEAVES SKIN FEELING HYDRATED, NOT DRY OR TIGHT</span>
+                        <span>97% AGREE SKIN HAS A HEALTHY GLOW</span>
+                    </li>
+                    <li>
+                        <strong>AFTER 10 DAY:</strong>
+                        <span>100% AGREE SKIN FEELS SMOOTHER</span>
+                        <span>97% AGREE THIS ABSORBS OIL AND REDUCES SHINE</span>
+                    </li>
+                    <li>
+                        <strong>AFTER 28 DAY:</strong>
+                        <span>95% AGREE SKIN FEELS DETOXIFIED</span>
+                        <span>97% AGREE THIS DEEPLY CLEANSES AND UNCLOGS PORES </span>
+                    </li>
+                </ol>
+                <p>INDEPENDENT CONSUMER STUDY 37 PEOPLE 28 DAY</p>            
+            </div>
+            <div>
+                <h2>WHY IT'S SPECIAL?</h2>
+                <img src="images/sp_dt_01.png" alt="a sleeping woman image">
+                <img src="images/sp_dt_02.png" alt="applying cream image">
+                <p>Expertly curated clean ingredients including Blue Clay (Kaolin), Gardenia Extract and Pansy Extract unclog pores, gently exfoliate, and brighten and plump dull and tired skin.</p>
+                <p>Our signature botanical alternative to hyaluronic acid Hyaluroset™ Complex, delivers instant moisture to leave skin looking and feeling hydrated and healthy.</p>
+            </div>
+            <table class="desTable">
+                <caption>Product description</caption>
+                <tr>
+                    <th>Name of product</th>
+                    <td>PURIFYING BLUE CLAY MASK</td>
+                </tr>
+                <tr>
+                    <td>PURIFYING BLUE CLAY MASK</td>
+                    <th>Net weight</th>
+                    <td>1.7 FL OZ</td>
+                </tr>
+                <tr>
+                    <td>1.7 FL OZ</td>
+                    <th>Mindfully designed</th>
+                    <td>
+                        <ul>
+                            <li>• Glass jar and cap are fully recyclable</li>
+                            <li>• Carton made from fully recyclable, FSC-certified paper</li>
+                            <li>• Please note: recycling is subject to local policies and facilities</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>• Glass jar and cap are fully recyclable</li>
+                            <li>• Carton made from fully recyclable, FSC-certified paper</li>
+                            <li>• Please note: recycling is subject to local policies and facilities</li>
+                        </ul>
+                    </td>
+                    <th>Free Test</th>
+                    <td>Cruelty free, Vegan, Derpatologist tested,Gruten free, Fragrance free, Allergy tested, Slicone free, Nut allergen free, Sultable for sensitive skin, Non-comedogencic</td>
+                </tr>
+                <tr>
+                    <td>Cruelty free, Vegan, Derpatologist tested,Gruten free, Fragrance free, Allergy tested, Slicone free, Nut allergen free, Sultable for sensitive skin, Non-comedogencic</td>
+                    <th>How to use</th>
+                    <td>After cleansing, apply a few pumps of serum to the skin in upwards strokes. Follow with your moisturizer. Use daily, morning and night.</td>
+                </tr>
+                <tr>
+                    <td>After cleansing, apply a few pumps of serum to the skin in upwards strokes. Follow with your moisturizer. Use daily, morning and night.</td>
+                    <th>Ingredients</th>
+                    <td>
+                        <div>
+                            Water (Aqua, Eau), Kaolin, Propanediol, Cetyl Alcohol, Glycerin, Glyceryl Stearate, Bentonite, Niacinamide, Salicylic Acid, Cassia Angustifolia Seed Polysaccharide, Helianthus Annuus (Sunflower) Seed Oil, Hydrolyzed Gardenia Florida Extract, Viola Tricolor Extract, Phycocyanin, Magnesium Aluminum Silicate, Cetearyl Olivate, Charcoal Powder, Stearyl Alcohol, Sorbitan Olivate, Maltodextrin, Hydroxyethylcellulose, Tetrasodium Glutamate Diacetate, Sodium Citrate, Ethylhexylglycerin, Phenoxyethanol.
+                            <ul>
+                                <li>• Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that delivers immediate and lasting moistureto nourish, plump and smooth the skin.</li>
+                                <li>• Blue Clay (Kaolin): gently draws out pollution, oils and dirt while unclogging pores.</li>
+                                <li>• Niacinamide: helps to brighten and improve skin texture.</li>
+                                <li>• Salicylic Acid: sheds dead skin cells, decrease redness, and heals blemishes faster.</li>
+                                <li>• Pansy Extract: soothes and calms the skin.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            Caprylic/Capric Triglyceride, Squalane, Hydrogenated Ethylhexyl Olivate, Diheptyl Succinate, Simmondsia Chinensis (Jojoba) Seed Oil, Crambe Abyssinica Seed Oil, Euterpe Oleracea Fruit Oil, Helianthus Annuus (Sunflower) Seed Oil, Vitis Vinifera (Grape) Seed Oil Sclerocarya Birrea Seed Oil, Persea Gratissima (Avocado) Oil, Cassia Angustifolia Seed Polysaccharide,Argania Spinosa Kernel Oil Brassica Campestris (Rapeseed) Seed Oil, Moringa Oleifera Seed Oil, Hippophae Rhamnoides Oil,Linum Usitatissimum (Linseed) Seed Oil, Opuntia Ficus-Indica Seed Oil, Sesamum Indicum (Sesame) Seed Oil, Emblica Officinalis Fruit Extract, Capryloyl Glycerin/ Sebacic Acid Copolymer, Hydrogenated Olive Oil Unsaponifiables, Water(Aqua, Eau).
+                            <ul>
+                                <li>• Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that delivers immediate and lasting moistureto nourish, plump and smooth the skin.</li>
+                                <li>• Blue Clay (Kaolin): gently draws out pollution, oils and dirt while unclogging pores.</li>
+                                <li>• Niacinamide: helps to brighten and improve skin texture.</li>
+                                <li>• Salicylic Acid: sheds dead skin cells, decrease redness, and heals blemishes faster.</li>
+                                <li>• Pansy Extract: soothes and calms the skin.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="qandA" >
+            <ul class="barMenu qa">
+                <li><a href="#prDetail">Product Details</a></li>
+                <li><a href="#qa" class="active">Q&amp;A</a></li>
+                <li><a href="#items">Related Items</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+
+            <div>
+                <h2>
+                    <strong>Q&#38;A</strong>
+                    FREQUENTLY ASKED QUESTIONS
+                </h2>
+                <ul class="accordionQA">
+                    <li>
+                        <b>HOW OFTEN CAN I USE THIS?</b>
+                        <p>We recommend using our Purifying Clay Mask one to two times per week.</p>
+                    </li>
+                    <li>
+                        <b>WHAT ARE THE BENEFITS?</b>
+                        <p>Helps to draw out impurities, absorbs excess sebum and regulate oil production. Reduces shine and makes the skin more even-looking. Pores look smaller and the overall complexion is more uniform.</p>
+                    </li>
+                    <li>
+                        <b>HOW CAN I WORK THIS INTO MY DAILY ROUTINE?</b>
+                        <p>Gently cleanse the skin before each use. Apply mask and let sit for 10 minutes or until fully dry. Rinse off, pat dry and follow with The Outset Prep Serum and Daily Moisturizer.</p>
+                    </li>
+                    <li>
+                        <b>WHAT OTHER PRODUCTS WORK BEST WITH THIS?</b>
+                        <p>The Outset Daily Moisturizer and Night Cream complement this mask wonderfully. Add a few drops of The Outset Ultralight Moisture-Boosting Oil for an extra dose of nourishment.</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>HAVE A QUESTION?</h2>
+                <p>We’re happy to answer any questions you may have about our products or any other general inquiries. Send us a note!</p>
+                <a href="mailto:help@theoutset.com">Contact US</a>
+            </div>
+        </div>
+
+        <div class="relatedItem">
+            <ul class="barMenu items">
+                <li><a href="#prDetail">Product Details</a></li>
+                <li><a href="#qa">Q&amp;A</a></li>
+                <li><a href="#items" class="active">Related Items</a></li>
+                <li><a href="#reviews" >Reviews</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="detail_S02.html">
+                        <img src="images/re_S02.png" alt="recommend product prep serum">
+                        <p>FIRMING VEGAN COLLAGEN PREP SERUM</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_S04.html">
+                        <img src="images/re_S04.png" alt="recommend product moisturizer">
+                        <p>NOURISHING SQUALANE DAILY MOISTURIZER</p>
+                    </a> 
+                </li>
+                <li>
+                    <a href="detail_B04.html">
+                        <img src="images/re_B04.png" alt="recommend product regimen bundle">
+                        <p>DAILY ESSENTIALS REGIMEN BUNDLE</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="reviews">
+            <ul class="barMenu reviews" >
+                <li><a href="#prDetail">Product Details</a></li>
+                <li><a href="#qa">Q&amp;A</a></li>
+                <li><a href="#items">Related Items</a></li>
+                <li><a href="#reviews" class="active">Reviews</a></li>
+            </ul>
+
+            <h2>REVIEWS</h2>
+            <div>
+                <span>
+                    <strong>Total Reviews</strong>
+                    <b>06</b>                
+                </span>
+                <span>
+                    <mark>Average Rating</mark>
+                    <b>5.0</b>
+                </span>
+            </div>
+            <div>
+                <form>
+                    <select>
+                        <option value='default' selected>Rating</option>
+                        <option value='5.0'>★★★★★</option>
+                        <option value='4.0'>★★★★</option>
+                        <option value='3.0'>★★★</option>
+                        <option value='2.0'>★★</option>
+                        <option value='1.0'>★</option>
+                    </select>
+                    <select>
+                        <option value='default' selected>Skin Type</option>
+                        <option value='DRY'>DRY</option>
+                        <option value='Combination'>Combination</option>
+                        <option value='Normal'>Normal</option>
+                        <option value='Sensitive'>Sensitive</option>
+                        <option value='Oily'>Oily</option>
+                    </select>
+                    <select>
+                        <option value='default' selected>Age Range</option>
+                        <option value='18 - 24'>18 - 24</option>
+                        <option value='25 - 34'>25 - 34</option>
+                        <option value='35 - 44'>35 - 44</option>
+                        <option value='45 - 54'>45 - 54</option>
+                        <option value='55+'>55+</option>
+                    </select>
+                    <select>
+                        <option value='default' selected>Images &amp; Videos</option>
+                        <option value='Images'>Images</option>
+                        <option value='Videos'>Videos</option>
+                    </select>
+                    <input type="search" placeholder="Search Reviews">
+                </form>
+            </div>
+
+            <ul class="reviewList">
+                <li>
+                    <div>
+                        <strong>THUMBS UP TO BLUE CLAY MASK</strong>
+                        <p>I love this mask! My skin looks bright and hydrated after I use it. Great product!</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>EMMA</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Combination</dd>
+                        </dl>
+                        <time datetime="2023-04-02">04/02/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>FEELS AWESOME</strong>
+                        <p>Love the way it makes my skin feel.</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>SOPHIA</dd>
+                            <dt>Age Range :</dt>
+                            <dd>35 - 44</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Dry</dd>
+                        </dl>
+                        <time datetime="2023-04-01">04/01/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>AMAZING PRODUCT</strong>
+                        <p>I love that it moisturizes my skin without making it greasy. My skin just feels soft</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="1" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>JAYCEE</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Combination</dd>
+                        </dl>
+                        <time datetime="2023-03-27">03/27/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>BEST MASK I’VE USED IN A WHILE!</strong>
+                        <p>My skin is super sensitive and I’m usually the one to get a rash after everything I use. But this product is so gentle and effective!</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>TRACY</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Normal</dd>
+                        </dl>
+                        <time datetime="2023-03-17">01-3/17/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>EASY TO USE WITH MINIMAL</strong>
+                        <p>Easy to use with minimalEasy to use with minimal steps.</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>HYUN</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Combination</dd>
+                        </dl>
+                        <time datetime="2023-03-10">03/10/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>ABSORBED QUICKLY</strong>
+                        <p>I thought the oil was nice. It absorbed quickly without being greasy, and I was able to put spf on over it without any issues.</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>BONNIE</dd>
+                            <dt>Age Range :</dt>
+                            <dd>45 - 54</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Combination</dd>
+                        </dl>
+                        <time datetime="2023-02-10">02/10/23</time>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="pager">
+                <a href="#" class="material-symbols-outlined">chevron_left</a>
+                <a href="#" class="material-symbols-outlined">chevron_right</a>
+                <ol>
+                    <li><a href="#">1</a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>
+            <a href="index_after.html">
+                <img src="images/Logo.png" alt="GO to main Page">
+            </a>
+        </h2>
+        <a href="footer_TnS.html">Terms of Service</a>
+        <a href="footer_PrivacyPolicy.html">Privacy Policy</a>
+        <ul>
+            <li><a href="about_OurStory.html">About Us</a></li>
+            <li><a href="footer_FAQs.html">FAQs</a></li>
+            <li><a href="footer_Subscription.html">Subscription</a></li>
+            <li><a href="footer_Accessibility.html">Accessibility</a></li>
+            <li><a href="footer_ContactUS.html">Contact Us</a></li>
+            <li><a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftheoutset%2Fabout%2F" target="_blank">Careers</a></li>
+            <li><a href="footer_HQ.html">HQ</a></li>
+            <li><a href="footer_JoinSMS.html">Join SMS for 10% off</a></li>
+            <li><a href="footer_ShippingPolicy.html">Shipping &amp; Return Policy</a></li>
+        </ul>
+        <address>
+            <p>
+                <span>
+                    Name of company : THEOUTSET International Co., Ltd.
+                </span>
+                <span>
+                    Name of representative : Scarlett Johansson's
+                </span>
+            </p>
+            <div>
+                <span>
+                    Address : New York City’s Flatiron district
+                </span>
+                <a href="mailto:help@theoutset.com">Email : help@theoutset.com.</a>
+            </div>
+        </address>
+        <p>© The Outset 2022</p>
+        <span>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img src="images/ico_tiktok.png" alt="Go to Our Tiktok">
+            </a>
+            <a href="https://www.instagram.com/theoutset/" target="_blank">
+                <img src="images/ico_ins.png" alt="Go to Our Instargram">
+            </a>
+        </span>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE OUTSET</title>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/outset.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartHave" class="cartPanel haveCart">
+        <div>
+            <h2>
+                Your Cart
+                <input type="button" value="close" class="closeCart btnClose">
+            </h2>
+            <ul>
+                <li>
+                    <b>1 item</b>
+                    <strong class="price">108.00</strong>
+                </li>
+                <li>
+                    <b>Shipping</b>
+                    <strong>calculated at checkout</strong>
+                </li>
+            </ul>
+            <div>
+                <p>
+                    <strong>TOTAL</strong>
+                    Shipping+taxes calculated at checkout
+                </p>
+                <strong class="totalPrice price">108.00</strong>
+            </div>
+            <a href="checkOut.html" class="sign_Btn">CHECKOUT</a>
+        </div>
+        <figure>
+            <input type="button" value="remove" class="removeBtn" data-panel="cartEmpty">
+            <img src="images/R01_dt_02.png" alt="Order product image">
+            <figcaption>
+                <b>DAILY ESSENTIALS REGIMEN REFILL BUNDLE</b>
+                <span>ONLINE EXCLUSIVE</span>
+                <span>Size OZ</span>
+                <div>
+                    <div class="countP">
+                        <input type="button" value="-">
+                        <SPAN>1</SPAN>
+                        <input type="button" value="+">
+                    </div>
+                    <strong class="price">108.00</strong>
+                </div>
+            </figcaption>
+        </figure>   
+    </div>
+    
+    <div id="cartEmpty" class="cartPanel">
+        <h2>
+            Your Cart
+            <input type="button" value="close" class="closeCart btnClose">
+        </h2>
+        <b>YOU HAVE NO ITEMS IN YOUR CART.</b>
+        <p>Login to find your registered basket or continue your purchase on the site.</p>
+        <input type="button" value="START SHOPPING" class="sign_Btn closeCart">
+    </div>
+    <header>
+        <ol class="verticalSlider">
+            <li class="active"><a href="list_All.html">Enjoy free shipping on all orders</a></li>
+            <li><a href="footer_Subscription.html">NEW! Subscribe & Save 20% on your favorite products!</a></li>
+            <li><a href="account_JoinPage.html">Sign up for The Outset newsletter + enjoy 15% off!</a></li>
+        </ol>
+        <div>
+            <h1>
+                <a href="index_after.html">
+                    <img src="images/Logo.png" alt="Welcome to THE OUTSET">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li class="active"><a href="list_All.html">Skin Care</a></li>
+                    <li><a href="ethos_ConsciouslyClean.html">Product Ethos</a></li>
+                    <li><a href="regimen_DiscoverTheRegimen.html">The Regimen</a></li>
+                    <li><a href="about_OurStory.html">About Us</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="menu" data-popup="gnb" class="menu material-icons">
+        </div>
+
+        <div id="gnb">
+            <div>
+                <h2>
+                    THE OUTSET IS WHERE YOU BEGIN AGAIN.
+                </h2>
+                <input type="button" value="close" class="btnClose">
+                <div>
+                    <h3>Skin Care</h3>
+                    <ul>
+                        <li><a href="list_All.html">All</a></li>
+                        <li><a href="list_Best.html">Best</a></li>
+                        <li><a href="list_Bundle.html">Bundle</a></li>
+                        <li><a href="list_Refills.html">Refills</a></li>
+                        <li><a href="list_SkinCare.html">Skin care</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Product Ethos</h3>
+                    <ul>
+                        <li><a href="ethos_ConsciouslyClean.html">Consciously clean</a></li>
+                        <li><a href="ethos_MindfullyDesigned.html">Mindfully designed</a></li>
+                        <li><a href="ethos_Hyaluroset™Complex.html">Hyaluroset™ complex</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>The Regimen</h3>
+                    <ul>
+                        <li><a href="regimen_DiscoverTheRegimen.html">Discover The Regimen</a></li>
+                        <li><a href="regimen_Free.html">Free list</a></li>
+                        <li><a href="regimen_Ingredient.html">Ingredient list</a></li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="about_OurStory.html">Our story</a></li>
+                        <li><a href="about_OurCause.html">Our cause</a></li>
+                        <li><a href="about_OurManifesto.html">Our manifesto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact US</h3>
+                    <ul>
+                        <li><a href="footer_ContactUS.html">Contact US</a></li>
+                    </ul>
+                </div>
+                <ol>
+                    <li><a href="myPage.html">YEON</a></li>
+                    <li><input type="button" value="CART" class="openCart" data-panel="cartHave"></li>
+                    <li><input type="search" placeholder="Search"></li>
+                    <li><a href="index.html">LOGOUT</a></li>
+                </ol>
+                <div>
+                    <h3>MY PAGE</h3>
+                    <ul>
+                        <li><a href="myPage.html">ORDER</a></li>
+                        <li><a href="myPage.html">ADDRESSES</a></li>
+                        <li><a href="myPage.html">SUBSCRIPTIONS</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SNS</h3>
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        tiktok
+                    </a>
+                    <a href="https://www.instagram.com/theoutset/" target="_blank">
+                        instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="detailContainer detailType03">   
+        <div class="fullBox">
+            <div>
+                <div class="sliderBox">
+                    <ul class="detailSlider">
+                        <li><img src="images/R01_dt_01.png" alt="first product daily bundle image"></li>
+                        <li><img src="images/R01_dt_02.png" alt="second product daily bundle image"></li>
+                        <li><img src="images/R01_dt_03.png" alt="third product daily bundle image"></li>
+                    </ul>
+                    <ol class="detailPager">
+                        <li><a href="#" data-slide-index="0"><img src="images/R01_dt_01.png" alt="product daily bundle thumbNail1"></a></li>
+                        <li><a href="#" data-slide-index="1"><img src="images/R01_dt_02.png" alt="product daily bundle thumbNail2"></a></li>
+                        <li><a href="#" data-slide-index="2"><img src="images/R01_dt_03.png" alt="product daily bundle thumbNail3"></a></li>
+                    </ol>
+                </div>
+                <div>
+                    <mark>THE OUTSET IS WHERE YOU BEGIN AGAIN.</mark>
+                    <h2>Daily Essentials Regimen Refill Bundle</h2>
+                    <strong>ONLINE EXCLUSIVE</strong>
+                    <div>
+                        <span>
+                            <small>Price</small>
+                            108
+                        </span>
+                        <input type="button" value="CART" class="btnCart" data-popup="cartHave" >
+                        <a href="checkOut.html">BUY IT NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="productDetails01">
+            <ul class="barMenu prDetail">
+                <li><a href="#prDetail"class="active">Product Details</a></li>
+                <li><a href="#qa">Q&amp;A</a></li>
+                <li><a href="#items">Related Items</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+            <h3>Cleanser. Serum. moisturizer.</h3>
+            <figure>
+                <img src="images/R01_dt_02.png" alt="product daily bundle">
+                <figcaption>
+                    <!-- ordering -->
+                    <h4>DAILY ESSENTIALS REGIMEN REFILL BUNDLE</h4>
+                    <p>Our everyday, three-step regimen works together to bring the skin back into balance for a healthy-looking complexion.</p>
+                    <p>Each step features our signature Hyaluroset™ Complex, a botanical alternative to hyaluronic acid to plump, smooth and nourish. Repeat the routine morning and night for smooth and radiant-looking skin in 3 minutes.</p>
+                </figcaption>
+            </figure>
+            <div class="fullBox bundle bg03">
+                <div class="jetSet type03">
+                    <div>
+                        <h2>
+                            <mark>DAILY ESSENTIALS REGIMEN REFILL BUNDLE</mark>
+                            The Refill Set
+                            <b>The Cleanser Refill(7.5 FL OZ) & The Prep Serum Refill(1.5 FL OZ) & The Daily Moisturizer Refill(2.5 FL OZ)</b>
+                        </h2>
+                        <p>Extend the life of your bottle with this refill pouch. Containing 50% more than our standard size - more product, more value and less waste.</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/B_tex_S02_03.png" alt="texture of prep serum">
+                            <p>FIRMING VEGAN COLLAGEN PREP SERUM</p>
+                        </div>
+                        <div>
+                            <img src="images/B_tex_S04_03.png" alt="texture of moisturizer">
+                            <p>NOURISHING SQUALANE DAILY MOISTURIZER</p>
+                        </div>
+                        <div>
+                            <img src="images/B_tex_S03_03.png" alt="texture of cleanser">
+                            <p>GENTLE MICELLAR ANTIOXIDANT CLEANSER</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table class="desTable">
+                <caption>Product description</caption>
+                <tr>
+                    <th>Name of product</th>
+                    <td>DAILY ESSENTIALS REGIMEN REFILL BUNDLE</td>
+                </tr>
+                <tr>
+                    <td>DAILY ESSENTIALS REGIMEN REFILL BUNDLE</td>
+                    <th>How to use</th>
+                    <td>
+                        <ul>
+                            <li>• Step 1: Gentle Antioxidant Micellar Cleanser Morning or night, wet skin with warm water, massage a dime-size amount of cleanser gently into skin, rinse thoroughly, and pat dry.</li>
+                            <li>• Step 2: Firming Vegan Collagen Prep Serum After cleansing, apply a few pumps of serum into your hands and gentlysweep over the face and neck in upwards strokes.</li>
+                            <li>• Step 3: Nourishing Squalane Daily Moisturizer On clean, dry skin, smooth moisturizer over the face and neck.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>• Step 1: Gentle Antioxidant Micellar Cleanser Morning or night, wet skin with warm water, massage a dime-size amount of cleanser gently into skin, rinse thoroughly, and pat dry.</li>
+                            <li>• Step 2: Firming Vegan Collagen Prep Serum After cleansing, apply a few pumps of serum into your hands and gentlysweep over the face and neck in upwards strokes.</li>
+                            <li>• Step 3: Nourishing Squalane Daily Moisturizer On clean, dry skin, smooth moisturizer over the face and neck.</li>
+                        </ul>
+                    </td>
+                    <th>Ingredients</th>
+                    <td>
+                        <div>
+                            Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that delivers immediate and lasting moisture to nourish, plump and smooth the skin.
+                            <ul>
+                                <li>• Cleansing Micelles (in the Cleanser): attracts and traps impurities like tiny magnets, lifting dirt up and away, without stripping the skin.</li>
+                                <li>• Antioxidant blend (in The Cleanser): Antioxidant Fruit Extract Blend: extracts of lemon, orange, avocado and grape help improve moisture retention while minimizing free radicals damage.</li>
+                                <li>• Vegan Collagen (in The Prep Serum): sustainably created via fermentation, this clean alternative to traditional collagen helps improve skin firmness and elasticity</li>
+                                <li>• Squalane (in The Moisturizer): olive-derived squalane helps to prevent moisture loss and restore skin's natural protective barrier against environmental stresses.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that delivers immediate and lasting moisture to nourish, plump and smooth the skin.
+                            <ul>
+                                <li>• Cleansing Micelles (in the Cleanser): attracts and traps impurities like tiny magnets, lifting dirt up and away, without stripping the skin.</li>
+                                <li>• Antioxidant blend (in The Cleanser): Antioxidant Fruit Extract Blend: extracts of lemon, orange, avocado and grape help improve moisture retention while minimizing free radicals damage.</li>
+                                <li>• Vegan Collagen (in The Prep Serum): sustainably created via fermentation, this clean alternative to traditional collagen helps improve skin firmness and elasticity</li>
+                                <li>• Squalane (in The Moisturizer): olive-derived squalane helps to prevent moisture loss and restore skin's natural protective barrier against environmental stresses.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="qandA" >
+            <ul class="barMenu qa">
+                <li><a href="#prDetail">Product Details</a></li>
+                <li><a href="#qa" class="active">Q&amp;A</a></li>
+                <li><a href="#items">Related Items</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+
+            <div>
+                <h2>
+                    <strong>Q&#38;A</strong>
+                    FREQUENTLY ASKED QUESTIONS
+                </h2>
+                <ul class="accordionQA">
+                    <li>
+                        <b>WHY SHOULD I PURCHASE THIS BUNDLE?</b>
+                        <p>The Daily Essentials Regimen is the essential set for anyone looking to try Scarlett's daily skincare routine. This three step refill bundle is an easy way to extend the life of your exisitng bottles and keep them out of the landfill.</p>
+                    </li>
+                    <li>
+                        <b>HOW LONG WILL THESE PRODUCTS LAST?</b>
+                        <p>Using the recommended amount twice daily, these refills should last you around 2.5 months.</p>
+                    </li>
+                    <li>
+                        <b>CAN I MIX THESE PRODUCTS WITH OTHERS IN MY SKINCARE REGIME?</b>
+                        <p>Yes! At The Outset, we wanted to create safe, clean and gentle formulas, free from harsh ingredients. Which means all of The Outset products can easily be incorporated into your existing routine.</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>HAVE A QUESTION?</h2>
+                <p>We’re happy to answer any questions you may have about our products or any other general inquiries. Send us a note!</p>
+                <a href="mailto:help@theoutset.com">Contact US</a>
+            </div>
+        </div>
+
+        <div class="relatedItem">
+            <ul class="barMenu items">
+                <li><a href="#prDetail">Product Details</a></li>
+                <li><a href="#qa">Q&amp;A</a></li>
+                <li><a href="#items" class="active">Related Items</a></li>
+                <li><a href="#reviews" >Reviews</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="detail_S02.html">
+                        <img src="images/re_S02.png" alt="recommend product prep serum">
+                        <p>FIRMING VEGAN COLLAGEN PREP SERUM</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_S01.html">
+                        <img src="images/re_S01.png" alt="recommend product polish">
+                        <p>EXFOLIATING CAFFEINE MICRO POLISH</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_S06.html">
+                        <img src="images/re_S06.png" alt="recommend product eye cream">
+                        <p>SMOOTHING VITAMIN C EYE + EXPRESSION LINES CREAMM</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="reviews">
+            <ul class="barMenu reviews" >
+                <li><a href="#prDetail">Product Details</a></li>
+                <li><a href="#qa">Q&amp;A</a></li>
+                <li><a href="#items">Related Items</a></li>
+                <li><a href="#reviews" class="active">Reviews</a></li>
+            </ul>
+
+            <h2>REVIEWS</h2>
+            <div>
+                <span>
+                    <strong>Total Reviews</strong>
+                    <b>02</b>                
+                </span>
+                <span>
+                    <mark>Average Rating</mark>
+                    <b>4.7</b>
+                </span>
+            </div>
+            <div>
+                <form>
+                    <select>
+                        <option value='default' selected>Rating</option>
+                        <option value='5.0'>★★★★★</option>
+                        <option value='4.0'>★★★★</option>
+                        <option value='3.0'>★★★</option>
+                        <option value='2.0'>★★</option>
+                        <option value='1.0'>★</option>
+                    </select>
+                    <select>
+                        <option value='default' selected>Skin Type</option>
+                        <option value='DRY'>DRY</option>
+                        <option value='Combination'>Combination</option>
+                        <option value='Normal'>Normal</option>
+                        <option value='Sensitive'>Sensitive</option>
+                        <option value='Oily'>Oily</option>
+                    </select>
+                    <select>
+                        <option value='default' selected>Age Range</option>
+                        <option value='18 - 24'>18 - 24</option>
+                        <option value='25 - 34'>25 - 34</option>
+                        <option value='35 - 44'>35 - 44</option>
+                        <option value='45 - 54'>45 - 54</option>
+                        <option value='55+'>55+</option>
+                    </select>
+                    <select>
+                        <option value='default' selected>Images &amp; Videos</option>
+                        <option value='Images'>Images</option>
+                        <option value='Videos'>Videos</option>
+                    </select>
+                    <input type="search" placeholder="Search Reviews">
+                </form>
+            </div>
+
+            <ul class="reviewList">
+                <li>
+                    <div>
+                        <strong>MY SKIN NEVER FELT BETTER!</strong>
+                        <p>My skin has never felt or looked so soft and refreshed!</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>KELLY S</dd>
+                            <dt>Age Range :</dt>
+                            <dd>25 - 34</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Combination</dd>
+                        </dl>
+                        <time datetime="2023-01-20">01/20/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>REFRESHING AND PURE</strong>
+                        <p>Refreshing and pure</p>
+                        <span>
+                            Was This Review Helpful?
+                            <input type="button" value="5" class="btnUp">
+                            <input type="button" value="0" class="btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Review by</dt>
+                            <dd>MARY</dd>
+                            <dt>Age Range :</dt>
+                            <dd>35 - 44</dd>
+                            <dt>Skin Type:</dt>
+                            <dd>Dry</dd>
+                        </dl>
+                        <time datetime="2023-01-19">01/19/23</time>
+                    </div>
+                </li>
+            
+            </ul>
+
+            <div class="pager">
+                <a href="#" class="material-symbols-outlined">chevron_left</a>
+                <a href="#" class="material-symbols-outlined">chevron_right</a>
+                <ol>
+                    <li><a href="#">1</a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <h2>
+            <a href="index_after.html">
+                <img src="images/Logo.png" alt="GO to main Page">
+            </a>
+        </h2>
+        <a href="footer_TnS.html">Terms of Service</a>
+        <a href="footer_PrivacyPolicy.html">Privacy Policy</a>
+        <ul>
+            <li><a href="about_OurStory.html">About Us</a></li>
+            <li><a href="footer_FAQs.html">FAQs</a></li>
+            <li><a href="footer_Subscription.html">Subscription</a></li>
+            <li><a href="footer_Accessibility.html">Accessibility</a></li>
+            <li><a href="footer_ContactUS.html">Contact Us</a></li>
+            <li><a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftheoutset%2Fabout%2F" target="_blank">Careers</a></li>
+            <li><a href="footer_HQ.html">HQ</a></li>
+            <li><a href="footer_JoinSMS.html">Join SMS for 10% off</a></li>
+            <li><a href="footer_ShippingPolicy.html">Shipping &amp; Return Policy</a></li>
+        </ul>
+        <address>
+            <p>
+                <span>
+                    Name of company : THEOUTSET International Co., Ltd.
+                </span>
+                <span>
+                    Name of representative : Scarlett Johansson's
+                </span>
+            </p>
+            <div>
+                <span>
+                    Address : New York City’s Flatiron district
+                </span>
+                <a href="mailto:help@theoutset.com">Email : help@theoutset.com.</a>
+            </div>
+        </address>
+        <p>© The Outset 2022</p>
+        <span>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img src="images/ico_tiktok.png" alt="Go to Our Tiktok">
+            </a>
+            <a href="https://www.instagram.com/theoutset/" target="_blank">
+                <img src="images/ico_ins.png" alt="Go to Our Instargram">
+            </a>
+        </span>
+    </footer>
+
+</body>
+</html>

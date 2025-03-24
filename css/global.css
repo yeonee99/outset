@@ -1,0 +1,797 @@
+header > ol >li,
+header > div nav ul li a,
+header > div nav li input[type="button"],
+#gnb > div h2,
+#gnb > div ol li:nth-of-type(3) input[type='search'],
+.cartPanel h2,
+#cartEmpty p,
+.mainContainer > div:nth-of-type(2) ul li a,
+.pointP,
+.listContainer .listSlider li a,
+.listContainer .itemBox li a span,
+.titleBox,
+.ourContainer > div:first-of-type >*:not(:first-child),
+.storyContainer > ul:nth-of-type(2) li div p,
+.causeContainer > ul:nth-of-type(2) li div p,
+.storyslide li >*:not(h4),
+.festoContainer > div:first-of-type p,
+.festoContainer > div:nth-of-type(3),
+.festoContainer > ul:nth-of-type(2) li p,
+.festoContainer > div:nth-of-type(4) p,
+.festoContainer > div:nth-of-type(5) ol li h4,
+.detailContainer > div:nth-of-type(1) > div > div:last-of-type strong,
+.barMenu,
+.detailContainer .productDetails01 figure figcaption:not(h4),
+.detailContainer .productDetails01 h3,
+.ingredientPart > p span,
+.ingredientPart > p mark,
+.ingredientPart ul li,
+.productDetails01 > div:nth-of-type(3) div p:not(b),
+.productDetails01 > div:nth-of-type(3) div h2:not(mark),
+.resultArea,
+.qandA > div > ul,
+.productDetails01 div:nth-of-type(4) p,
+.reviewList,
+.bundle div:first-of-type,
+.complexContainer > div:nth-of-type(1) >*:not(:first-child),
+.complexContainer > ul:nth-of-type(2) div >*:not(h3),
+.cleanContainer > div:nth-of-type(1) > div p,
+.cleanContainer > div:nth-of-type(3) ul li,
+.cleanContainer > div:nth-of-type(4) p,
+.cleanContainer > div:nth-of-type(4) > div,
+.designedContainer > div:nth-of-type(1) li > p,
+.bottleDesignTap li,
+.designedContainer ul:nth-of-type(2) li p,
+.discoverContainer > h2 small,
+.discoverContainer > ul:nth-of-type(2) li p,
+.freeContainer>*:not(h2,.foldMenu),
+.ingContainer div ul li,
+.faqContainer div,
+.subContainer div:first-of-type span,
+.accordionQA li,
+.footerAccess li,
+.footerCont fieldset ul li label,
+.footerCont fieldset ul li input,
+.footerCont fieldset div,
+.footerCont fieldset div textarea,
+.footerHQ,
+.footerSMS div,
+.footerShipContainer li,
+.terms,
+.accountLogin h2 > small,
+.accountLogin div h3 small,
+.accountLogin > div > div form fieldset > ul li,
+.accountFind > div h2 small,
+.accountFind > div fieldset,
+.accountJoin>*,
+.accountJoin h2 span,
+.mypage,
+.checkOutContainer,
+.paymentContainer,
+.paymentContainer label,
+.paymentContainer h2 small,
+.accountFind #successPage p,
+footer
+{font-family: 'Roboto';}
+
+
+.mainContainer > div:nth-of-type(3) span,
+.okPage h2
+{font-family: 'Mr Dafoe';}
+
+.bx-wrapper .bx-pager,
+.mainContainer ol li::before,
+.mainContainer > div:first-of-type > div:first-of-type,
+.listContainer > div:first-of-type,
+.listContainer .itemBox li a mark,
+.pager ol li a,
+.detailContainer > div:nth-of-type(2) > div > div:last-of-type div span:not(small),
+.reviewList > time,
+.reviewList li > div:first-of-type span > input[type='button'],
+.cart .price,
+.cartBox ul li:not(:last-of-type) b,
+.paymentContainer form div div:nth-of-type(1) > ul li:last-of-type mark,
+.cartBox figure figcaption span:last-of-type,
+#cartHave .price
+{font-family: 'Oswald';}
+
+#gnb > div div,#gnb > div ol li a,
+#gnb > * input[type="button"],
+.mainContainer > div:first-of-type dl,
+.mainContainer .mainTopslider li a,
+.mainTopslider li span,
+.mainContainer ol,
+.mainContainer > div:nth-of-type(2),
+.mainContainer > div:nth-of-type(3) a,
+.mainContainer > div:nth-of-type(4) div,
+.mainContainer > div:nth-of-type(5),
+.listContainer h2,
+.listContainer .itemBox li a > b,
+.ourContainer h2,
+.designedContainer h2,
+.storyContainer > ul:nth-of-type(2) li div,
+.causeContainer > ul:nth-of-type(2) li div,
+.storyslide li > h4,
+.festoContainer > div:first-of-type h3,
+.festoContainer > div:nth-of-type(2) b,
+.festoContainer > div:nth-of-type(3) mark,
+.festoContainer > ul:nth-of-type(2) li mark,
+.festoContainer > div:nth-of-type(4) mark,
+.festoContainer > div:nth-of-type(5)>*:not(h4),
+.detailContainer > div:nth-of-type(1) > div > div:last-of-type mark,
+.detailContainer > div:nth-of-type(1) > div > div:last-of-type > h2,
+.detailContainer > div:nth-of-type(1) > div > div:last-of-type div:not(span),
+.detailContainer > div:nth-of-type(1) > div > div:last-of-type div span > small,
+.detailContainer .productDetails01 figure figcaption > h4,
+.ingredientPart > p,
+.productDetails01 > div:nth-of-type(2) div,
+.productDetails01 div:nth-of-type(4) h2,
+.qandA  div:not(ul),
+.relatedItems,
+.relatedItem,
+.reviews h2,
+.reviews div,
+.desTable,
+.underbarBtn,
+.cartPanel,
+.foldMenu>*,
+.howto,
+.ingredientPart div mark,
+.bundle h2,
+.bundle > div > div:last-of-type p,
+.complexContainer > div:nth-of-type(1) > h2,
+.complexContainer > ul:nth-of-type(2) li div h3,
+.complexContainer .relatedItems span,
+.cleanContainer h2,
+.cleanContainer > div:nth-of-type(1) > div,
+.cleanContainer > div:nth-of-type(3) p,
+.cleanContainer > div:nth-of-type(4) h3,
+.cleanContainer > div:nth-of-type(4) ul li b,
+.designedContainer > div:nth-of-type(1) li > b,
+.bottleDesignTap h2,
+.designedContainer ul:nth-of-type(2) li span,
+.designedContainer div:last-of-type,
+.discoverContainer > h2,
+.discoverContainer > ul:nth-of-type(2) li h3,
+.discoverContainer > ul:nth-of-type(2) li b,
+.underblueBtn,
+.freeContainer div h2,
+.ingContainer h2,
+.ingContainer h3,
+.ingContainer > div:last-of-type a,
+.faqContainer h2,
+.faqContainer > div>b,
+.subContainer h2,
+.subContainer div:first-of-type p,
+.subContainer ul:first-of-type li,
+.subContainer div:last-of-type,
+.footerAccess h2,
+.footerAccess h3,
+.footerCont h2,
+.footerSMS div h2,
+.okPage div,
+.footerHQ h2,
+.footerShipContainer h2,
+.footerShipContainer h3,
+.terms h2,.terms h3,.terms h4,
+.sign_Btn,
+.accountLogin h2,
+.accountLogin div div > div,
+.accountFind > div h2,
+.accountFind #successPage,
+.accountJoin h2,
+#login,
+.mypage h2,
+#addAddrPage > input,
+.checkOutContainer h2,
+.paymentContainer h2,
+.paymentContainer h2,
+.okPage > div+a
+{font-family: 'Hind Vadodara';}
+
+.bx-wrapper{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+
+li{list-style: none;}
+img,video{width: 100%;}
+a{text-decoration: none;}
+mark{background-color: transparent; font-style: normal;}
+address{font-style: normal;}
+input[type="button"]{border: none; cursor: pointer;}
+input{background-color: transparent; border-width: 0 0 2px; border-color: #68b5f9; font-size: inherit;}
+
+.underblueBtn{
+    font-weight: 500;
+}
+.underbarBtn{
+    font-weight: 400; color: #454545; 
+}
+[class^="under"]::after{
+    content: ''; background-repeat: no-repeat; background-position: center;
+}
+.underblueBtn:after{
+    background-image: url('../images/ico_arrow_hv.png');
+}
+.underbarBtn:after{
+    background-image: url('../images/ico_arrow_bl.png');
+}
+header:not(#gnb){
+    background-color: #fff; position: fixed; width: 100%; top: 0; z-index: 5;
+}
+#gnb{
+    display: none; background-color: #fff; position: fixed;
+}
+#gnb a{
+    display: block;
+}
+#gnb h3{
+    font-weight: 600;
+}
+#gnb ul li a{
+    color: #787878; font-weight: 300; font-size: 15px;
+}
+.btnClose,
+.closePop{
+    position: absolute; background-image: url('../images/ico__close.png'); background-repeat: no-repeat;
+    background-size: contain; text-indent: -9999px;
+}
+#gnb > div ol li:nth-of-type(3) input[type='search']:focus-visible{
+    outline: none;
+}
+#gnb > div ol li:nth-of-type(3) input[type="search"]::-webkit-search-decoration,
+#gnb > div ol li:nth-of-type(3) input[type="search"]::-webkit-search-cancel-button,
+#gnb > div ol li:nth-of-type(3) input[type="search"]::-webkit-search-results-button,
+#gnb > div ol li:nth-of-type(3) input[type="search"]::-webkit-search-results-decoration{
+    display: none;
+}
+header > div:first-of-type{
+    position: relative; box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.05);
+}
+header > div nav ul li{
+    display: inline-block;
+}
+header .menu{
+    position: absolute; padding: 0;
+}
+footer > h2{
+    max-width: 212px; margin-bottom: 35px; padding-top: 70px;
+}
+footer > *{
+    font-weight: 400;
+}
+footer a{
+    color: #000;
+}
+footer > ul{
+    list-style: none;
+}
+footer > a:not(:first-of-type),
+footer > ul li:not(:first-of-type){
+    margin-left: 15px;
+}
+footer > span{
+    float: right; padding-bottom: 50px;
+}
+footer > span a{
+    display: block; float: left;
+}
+
+@media screen and (max-width: 767px){
+    section{
+        margin-bottom: 150px;
+    }
+    [class^='under']:after{
+        display: inline-block; padding-left: 20px;
+    }
+    [class^='under']{
+        display: block; font-size: 12px;
+    }
+    .underblueBtn{
+        color: #508bbf;
+    }
+    .underbarBtn::after{
+        background-size: 4px; height: 8px;
+    }
+    .underblueBtn::after{
+        background-size: 6px; height: 25px; vertical-align: bottom;
+    }
+    body{
+        padding-top: 40px;
+    }
+    header > div:not(#gnb,#haveCart,#emptyCart),
+    .mypage,
+    footer,
+    .footerAccess,
+    [class*='Container']>*:not(.fullBox,.relatedItems,.foldMenu,.pointP,.slideArea){
+        margin: 0 auto; padding: 0 3.125%;
+    }
+
+    #gnb{
+        top: 0; width: 100%; height: 100%;
+    }
+    #gnb.active,
+    #gnb > div > div.active > ul,
+    header > div h1 a,
+    footer > h2 a,
+    footer address p span{
+        display: block;
+    }
+    #gnb > div{
+        position: relative; padding: 50px 20px; box-sizing: border-box; height: 100%;
+    }
+    .btnClose,
+    .closePop{
+        right: 18px; width: 15px; height: 15px;
+    }
+    #gnb > div:first-of-type{
+        display: flex; flex-direction: column; justify-content: space-between;
+        overflow: scroll;
+    }
+    #gnb > div > div > ul,
+    .verticalSlider,
+    header > div nav ul li a{
+        display: none;
+    }
+    #gnb > div > div:last-of-type{
+        order: 2;
+    }
+    #gnb > div > div:not(:last-child) h3{
+        position: relative;
+    }
+    #gnb > div > div:not(:last-child) h3::after{
+        content: url('../images/ico_arrow_down.png'); transform: rotate(0deg); transition: all 1s;
+        position: absolute; right: 0;
+    }
+    #gnb > div > div.active:not(:last-child) h3::after{
+        transform: rotate(-180deg); transition: all 0.5s;
+    }
+    #gnb > div div:nth-of-type(6) a:not(:last-of-type){
+        margin-right: 20px;
+    }
+    #gnb > div div:nth-of-type(7) h3,
+    #gnb > div div:nth-of-type(7) a{
+        display: inline-block;
+    }
+    #gnb > div div:nth-of-type(7) a{
+        background-repeat: no-repeat; background-size: 65%; text-indent: -9999px;
+    }
+    #gnb > div div:nth-of-type(7) a:nth-of-type(1){
+        width: 23px; height: 27px; background-image: url('../images/ico_tiktok.png'); margin-left: 25px;
+    }
+    #gnb > div div:nth-of-type(7) a:nth-of-type(2){
+        width: 25px; height: 26px; background-image: url('../images/ico_ins.png'); margin-left: 15px;
+    }
+    #gnb > div ul,
+    #gnb > div ul li:not(:last-of-type),
+    #gnb > div > div:not(:last-child) h3,
+    #gnb > div ol li:nth-of-type(1),
+    #gnb > div ol li:nth-of-type(2){
+        margin-bottom: 15px;
+    }
+    #gnb > div ol,
+    #gnb > div ol li:nth-of-type(3){
+        margin-bottom: 20px;
+    }
+    #gnb > div ul li{
+        line-height: 20px;
+    }
+    #gnb > div ol::after,
+    footer::after{
+        content: ''; display: block; clear: both;
+    }
+    #gnb > div ol{
+        order: 1;
+    }
+    #gnb > div ol li{
+        border-bottom: 2px solid #bddfff;
+    }
+    #gnb > div ol li:nth-of-type(1),
+    #gnb > div ol li:nth-of-type(2){
+        width: 48%; float: left;
+    }
+    #gnb > div ol li:nth-of-type(2){
+        margin-left: 4%;
+    }
+    #gnb > div ol li>*{
+        background-repeat: no-repeat; font-weight: 600; line-height: 30px; text-align: right; background-size: 15px;
+        color: #454545;
+    }
+    #gnb > div ol li:nth-of-type(1) a,
+    #gnb > div ol li:nth-of-type(2) input[type='button'],
+    #gnb > div ol li:nth-of-type(3) input[type='search']{
+        background-position: 10px center;
+    }
+    #gnb > div ol li:nth-of-type(1) a{
+        background-image: url('../images/ico__person.png');
+    }
+    #gnb > div ol li:nth-of-type(2) input[type='button']{
+        background-image:url('../images/ico__join.png'); height: 30px; width: 100%;
+    } 
+    #gnb > div ol li:nth-of-type(3) input[type='search']{
+        border: none; width: 100%; background-image: url('../images/ico__find.png'); font-weight: 400;
+    }
+    #gnb > div ol li:nth-of-type(4){
+        max-width: 70px; float: right;
+    }
+    header > div:nth-of-type(1){
+        line-height: 40px;
+    }
+    header > div nav li input[type="button"]{
+        display: block; color: #787878; font-weight: 400; font-size: 12px;
+    }
+    header .menu{
+        top: 8px; right: 3.75%;
+    }
+    footer a{
+        font-size: 13px;
+    }
+    footer > ul{
+        overflow-x: scroll; white-space: nowrap; padding-bottom: 15px;
+    }
+    footer > ul li{
+        font-size: 13px; display: inline-block;
+    }
+    footer address p span{
+        font-size: 10px;
+    }
+    footer address div span,
+    footer address p span:not(:last-of-type),
+    footer address p,
+    footer address div{
+        margin-bottom: 15px;
+    }
+    footer address div span,
+    footer address div a,
+    footer p{
+        font-size: 11px; display: block;
+    }
+    footer > span a{
+        max-width: 15px;
+    }
+    footer > span a:first-of-type{
+        margin-right: 20px;
+    }
+}
+/* ! mobile */
+
+/* ?desk tab */ 
+@media screen and (max-width: 1279px){
+    #gnb >*{
+        font-size: 15px;
+    }
+    #gnb > div h2{
+        display: none;
+    }
+    .btnClose,
+    .closePop{
+        top: 25px;
+    }
+    #gnb > div div:nth-of-type(6){
+        margin-bottom: 25px;
+    }
+    header > div h1{
+        max-width: 115px; position: absolute;
+    }
+    header > div nav li input[type="button"]{
+        font-size: 12px;
+    }
+    footer > ul{
+        margin-top: 15px;
+    }
+}
+/* !tab mob */
+@media screen and (min-width:768px) and (max-width:1279px){
+    [class^='under']::after{
+        padding-left: 25px;
+    }
+    body{
+        padding-top: 75px;
+    }
+    header > div:not(#gnb,#haveCart,#emptyCart),
+    .mypage,
+    footer,
+    .footerAccess,
+    [class*='Container']>*:not(.fullBox,.relatedItems,.foldMenu,.pointP,.slideArea){
+        margin: 0 auto; padding: 0 3.125%;
+    }
+    #gnb{
+        width: 93.75%;
+    }
+    #gnb > div{
+        padding: 70px 3.25% 35px; position: relative;
+    }
+    #gnb div div:not(:nth-of-type(6),:nth-of-type(7)) ul li a{
+        line-height: 15px;
+    }
+    #gnb div div:not(:nth-of-type(6),:nth-of-type(7)) ul li:not(:last-of-type) a{
+        margin-bottom: 15px;
+    }
+    .btnClose,
+    .closePop{
+        right: 25px; width: 20px; height: 20px;
+    } 
+    #gnb > div div:not(:nth-of-type(6),:nth-of-type(7)) h3,
+    footer address div,
+    footer > ul li{
+        margin-bottom: 25px;
+    }
+    #gnb > div div:nth-of-type(6) h3,
+    #gnb > div div:nth-of-type(7) h3{
+        min-width: 100px;
+    }
+    #gnb > div div:nth-of-type(6){
+        padding-top: 40px; clear: both;
+    }
+    .verticalSlider{
+        height: 30px;
+    }
+    .verticalSlider li{
+        bottom: -15px; padding: 7px 0;
+    }
+    .verticalSlider li a{
+        color: #fff; font-size: 12px;
+    }
+    header > div h1{
+        top: 15px;
+    }
+    header > div nav{
+        line-height: 45px;
+    }
+    header > div nav ul li a{
+        font-size: 12px;
+    }
+    header .menu{
+        top: 12px; right: 3.125%;
+    }
+    footer address div{
+        margin-top: 25px;
+    }
+}
+/* ?tablet */
+@media screen and (min-width: 768px){
+    section{
+        margin-bottom: 100px;
+    }
+    .verticalSlider{
+        list-style: none; background-color: #68b5f9; position: relative; overflow: hidden;
+    }
+    .verticalSlider li{
+        text-align: center; position: absolute; width: 100%; opacity: 0; font-weight: 400; transition-property: opacity, bottom;
+        transition-duration: 0.4s, 0.6s; transition-timing-function: ease-out,ease-in; color: #fff; cursor: pointer;
+    }
+    [class^="under"]{
+        font-size: 20px; 
+    }
+    .underblueBtn{
+        color: #000;
+    }
+    .underblueBtn:after{
+        background-size: 9px;
+    }
+    .underbarBtn:after{
+        background-size: 7px;
+    }
+    header > div nav{
+        box-sizing: border-box;
+    }
+    header > div nav ul li a,
+    header > div nav li input[type="button"]{
+        display: block; color: #787878; font-weight: 400;
+    }
+    #gnb{
+        margin: 0 auto; box-shadow: 5px 5px 3px rgba(0,0,0,0.15); z-index: 6;
+        top: 55%; left: 50%; transform: translate(-50%, -50%);
+    }
+    #gnb a,
+    #gnb.active,
+    header > div h1 a,
+    footer > h2 a,
+    .underbarBtn{
+        display: block;
+    }
+    #gnb > div:after,
+    #gnb > div div:nth-of-type(6)::before,
+    footer::after{
+        display: block; content: ''; clear: both;
+    }
+    #gnb > div div:not(:nth-of-type(6),:nth-of-type(7)),
+    #gnb > div ol{
+        float: left;
+    }
+    #gnb > div div:nth-of-type(2),
+    #gnb > div div:nth-of-type(3),
+    #gnb > div div:nth-of-type(5),
+    #gnb > div ol{
+        width: 16%;
+    }
+    #gnb > div div:nth-of-type(1),
+    #gnb > div div:nth-of-type(4){
+        width: 14%;
+    }
+    #gnb > div div:not(:nth-of-type(6),:nth-of-type(7),:nth-of-type(1)){
+        margin-left: 2%;
+    }
+    #gnb > div div:nth-of-type(6)>*,
+    #gnb > div div:nth-of-type(7)>*,
+    #gnb > div div:nth-of-type(6) ul>*,
+    footer > ul li{
+        display: inline-block;
+    }
+    #gnb > div div:nth-of-type(6) li:not(:first-of-type){
+        margin-left: 10px;
+    }
+    #gnb > div div:nth-of-type(6) a:not(:last-of-type){
+        margin-right: 20px;
+    }
+    #gnb > div div:nth-of-type(7) a{
+        text-indent: -9999px; background-repeat: no-repeat; background-size: contain; width: 23px; 
+    }
+    #gnb > div div:nth-of-type(7) a:nth-of-type(1){
+        background-image: url('../images/ico_tiktok.png'); margin-right: 15px;
+    }
+    #gnb > div div:nth-of-type(7) a:nth-of-type(2){
+        background-image: url('../images/ico_ins.png');
+    }
+    #gnb > div ul li{
+        line-height: 30px;
+    }
+    #gnb > div ol li{
+        border-bottom: 2px solid #bddfff; padding:0 0 15px 15px;
+    }
+    #gnb > div ol li:not(:last-of-type){
+        margin-bottom: 15px; 
+    }
+    #gnb > div ol li>*{
+        display: block; background-size: contain;
+    }
+    #gnb > div ol li>*{
+        font-size: 15px; font-weight: 600; color: #454545; line-height: 15px; padding-left: 30px; background-repeat: no-repeat;
+    }
+    #gnb > div ol li:nth-of-type(1) a{
+        background-image: url('../images/ico__person.png'); height: 20px;
+    }
+    #gnb > div ol li:nth-of-type(2) input[type='button']{
+        background-image:url('../images/ico__join.png'); height: 15px;
+    }
+    #gnb > div ol li:nth-of-type(3) input[type='search']{
+        border: none; width: 120px;
+    }
+    #gnb > div ol li:nth-of-type(3){
+        background: url('../images/ico__find.png')no-repeat; background-position:15px top;
+    }
+    #gnb > div ol li:nth-of-type(4) a{
+        background-image: url('../images/ico_logout.png'); height: 20px;
+    }
+    .verticalSlider li.active{
+        opacity: 1; bottom: 0;
+    }
+    header > div nav ul{
+        text-align: center;
+    }
+    header > div nav ul li:not(:first-of-type){
+        margin-left: 4.06%;
+    }
+    header > div nav ul li a:hover,
+    header > div nav ul li.active a{
+        color: #68b5f9;
+    }
+    footer > *{
+        font-size: 15px;
+    }
+    footer address p span:not(:first-of-type),
+    footer address div a{
+        position: relative;
+        padding-left:15px; margin-left: 15px;
+    }
+    footer > a:not(:first-of-type)::before,
+    footer > ul li:not(:first-of-type)::before,
+    footer address p span:not(:first-of-type)::before,
+    footer address div a::before{
+        position:absolute; left: 0; top: 3px; content: ""; width: 1px; height: 15px; background-color: #eaeaea;
+    }
+    footer > span a{
+        max-width: 26px;
+    }
+    footer > span a:first-of-type{
+        margin-right: 40px;
+    }
+}
+@media screen and (min-width:1280px){
+    [class^='under']:after{
+        opacity: 0; transition: all 0.3s;
+    }
+    [class^='under']:hover::after{
+        opacity: 1; padding-left: 35px;
+    }
+    .underblueBtn:hover{
+        color: #4577a3;
+    }
+    body{
+        padding-top: 145px;
+    }
+    .mypage,
+    footer,
+    .footerAccess,
+    [class*='Container']>*:not(.fullBox,.relatedItems,.foldMenu,.pointP,.slideArea){
+        max-width: 1720px; margin: 0 auto; padding: 0 5.2%;
+    }
+    header > div:not(#gnb,#haveCart,#emptyCart){
+        margin: 0 auto; padding: 0 5.2%;
+    }
+    #gnb{
+        width: 71.87%;
+    }
+    #gnb > div{
+        padding: 9% 10%; position: relative;
+    }
+    #gnb h3{
+        font-size: 18px;
+    }
+    #gnb > div h2{
+        position: absolute; transform:rotate(-90deg); transform-origin: right bottom;  font-size: 12px;
+        font-weight: 100; right: 20px; top: 30%; display: inline-block; text-indent: 120px;
+        background-image: url('../images/Logo.png'); background-repeat: no-repeat; background-size: 24%;
+    }
+    .btnClose,
+    .closePop{
+        top: 50px; right: 50px; width: 30px; height: 30px;
+    }
+    #gnb > div div:not(:nth-of-type(6),:nth-of-type(7)) h3,
+    #gnb > div div:nth-of-type(6)
+    {
+        margin-bottom: 40px;
+    }
+    #gnb > div div:nth-of-type(6) h3,
+    #gnb > div div:nth-of-type(7) h3{
+        min-width: 135px;
+    }
+    #gnb > div div:nth-of-type(6){
+        clear: both; padding-top: 60px;
+    }
+    #gnb > div ul li:hover a{
+        font-weight: 400;
+    }
+    .verticalSlider{
+        height: 50px;
+    }
+    .verticalSlider li{
+        bottom: -50px; padding: 15px 0;
+    }
+    .verticalSlider li a{
+        color: #fff;
+    }
+    header > div h1{
+        max-width: 212px; position: absolute; top: 35px;
+    }
+    header > div nav{
+        line-height: 95px;
+    }
+    header > div nav ul li a,
+    header > div nav li input[type="button"]{
+        font-size: 25px;
+    }
+    header .menu{
+        top: 35px; right: 5%; line-height: 30px; font-size: 35px;
+    }
+    footer ul,
+    footer address div{
+        margin: 25px 0;
+    }
+}
+/* *desktop */
+
+
+
+
+
+
+
+
+
+
+
