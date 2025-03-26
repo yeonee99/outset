@@ -204,7 +204,7 @@
     .bx-wrapper .bx-controls-direction a{width: 18px; height: 35px; z-index: 1;}
     .mainContainer .bx-controls-direction,
     .listContainer .bx-controls-direction
-    {
+   {
         bottom: -30px;
     }
     .bx-wrapper .bx-prev{background: url('../images/ico_cont_L.png')no-repeat; left: 25%;}
@@ -1936,8 +1936,8 @@
     }
     .terms > ol li > ol,
     .terms > ol li blockquote,
-    .ppcontainer > ol li:nth-of-type(2) > ul,
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
+    .ppContainer > ol li:nth-of-type(2) > ul,
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
         padding-left: 1%;
     }
     .footerTSIndex ol,
@@ -1948,31 +1948,31 @@
     .footerPPIndex ol li{
         margin-bottom: 20px; list-style: decimal;
     }
-    .ppcontainer > ol li > ul:not(.tableList){
+    .ppContainer > ol li > ul:not(.tableList){
         margin: 30px 0;
     }
-    .ppcontainer > ol li > ul:not(.tableList) li:not(:last-of-type){
+    .ppContainer > ol li > ul:not(.tableList) li:not(:last-of-type){
         margin-bottom: 30px;
     }
-    .ppcontainer > ol li:nth-of-type(2) > ul li,
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
+    .ppContainer > ol li:nth-of-type(2) > ul li,
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
         list-style: disc; list-style-position: inside;
     }
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
         margin-bottom: 30px;
     }
-    .ppcontainer > ol li:nth-of-type(2) > ul li::marker,
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li::marker{
+    .ppContainer > ol li:nth-of-type(2) > ul li::marker,
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li::marker{
         font-size: 10px;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList{
+    .ppContainer > ol li:nth-of-type(12) .tableList{
         display: flex; flex-wrap: wrap; margin-top: 30px;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li{
+    .ppContainer > ol li:nth-of-type(12) .tableList li{
         width: 90%; padding: 10px 15px; box-sizing: border-box; min-height: 70px; margin: 0 auto;
         border-width: 1px 1px 0 1px; border-color: #000; border-style: solid; text-align: center; display: flex; align-items: center; justify-content: center;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li:last-of-type{
+    .ppContainer > ol li:nth-of-type(12) .tableList li:last-of-type{
         border-bottom: 1px solid #000;
     }
     .tscontainer > ol li:nth-of-type(3) ol li,
@@ -2277,11 +2277,11 @@
     .afterAddr #manageAddr > ul li:nth-of-type(2) span a:last-of-type{
         margin-left: 15%;
     }
-    .checkOutContainer form > div div:nth-child(1),
-    .checkOutContainer form > div div:nth-child(2)>*,
-    .checkOutContainer form > div div:nth-child(3),
-    .checkOutContainer form > div div:nth-child(4),
-    .checkOutContainer form > div div:nth-child(5),
+    .checkOutpayContainer form > div div:nth-child(1),
+    .checkOutpayContainer form > div div:nth-child(2)>*,
+    .checkOutpayContainer form > div div:nth-child(3),
+    .checkOutpayContainer form > div div:nth-child(4),
+    .checkOutpayContainer form > div div:nth-child(5),
     .paymentContainer form > div > div:nth-child(1),
     .paymentContainer form > div > div:nth-child(2),
     .paymentContainer form > div > div:nth-of-type(3){
@@ -2326,36 +2326,36 @@
     .cartBox .sign_Btn{
         max-width: 670px;
     }
-    .checkOutContainer > form > div,
+    .checkOutpayContainer > form > div,
     .paymentContainer > form > div{
         padding-top: 50px;
     }
-    .checkOutContainer > input,
+    .checkOutpayContainer > input,
     .paymentContainer > input{
         font-family: inherit;
     }
-    .checkOutContainer ul li,
+    .checkOutpayContainer ul li,
     .paymentContainer ul li{
         font-size: 12px;
     }
-    .checkOutContainer form input:not(#smsCheck,.sign_Btn),
+    .checkOutpayContainer form input:not(#smsCheck,.sign_Btn),
     .paymentContainer form div div:not(:first-of-type) input{
         border-bottom-color: #545353; border-bottom-width: 1px; width: 100%;
         box-sizing: border-box; line-height: 35px;
     }
-    .checkOutContainer form > div h2,
+    .checkOutpayContainer form > div h2,
     .paymentContainer form > div h2{
         font-size: 15px; font-weight: 600; color: #000; margin-bottom: 35px;
     }
-    .checkOutContainer form > div > div:not(:last-of-type),
+    .checkOutpayContainer form > div > div:not(:last-of-type),
     .paymentContainer form > div > div:not(:last-of-type){
         margin-bottom: 50px; padding-bottom: 50px;
         border-bottom: 1px solid #bfbfbf;
     }
-    .checkOutContainer form > div > div ul{
+    .checkOutpayContainer form > div > div ul{
         box-sizing: border-box;
     }
-    .checkOutContainer form > div > div:nth-of-type(1) li:not(:last-of-type),
+    .checkOutpayContainer form > div > div:nth-of-type(1) li:not(:last-of-type),
     #addedAddr ul li:not(:last-of-type){
         margin-bottom: 30px;
     }
@@ -2363,30 +2363,30 @@
         font-size: 12px; color: #363636; border-width: 0 0 1px 0; border-color: #363636;
         border-style: solid; width: 100%; padding-bottom: 10px;
     }
-    .checkOutContainer form > div > div:nth-of-type(3) label,
+    .checkOutpayContainer form > div > div:nth-of-type(3) label,
     #addedAddr label{
         display: block;
     }
-    .checkOutContainer form > div > div:nth-of-type(3) input[type='text']{
+    .checkOutpayContainer form > div > div:nth-of-type(3) input[type='text']{
         max-width: 43%;
     }
-    .checkOutContainer form > div > div:nth-of-type(4) ul::after{
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul::after{
         display: block; clear: both; content: '';
     }
-    .checkOutContainer form > div > div:nth-of-type(4) ul li{
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul li{
         display: block; float: left; width: 30%;
     }
-    .checkOutContainer form > div > div:nth-of-type(4) ul li:not(:first-of-type){
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul li:not(:first-of-type){
         margin-left: 5%;
     }
-    .checkOutContainer form > div > div:nth-of-type(4) ul li img{
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul li img{
         width: 100%;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) label{
+    .checkOutpayContainer form > div > div:nth-of-type(5) label{
         color: #363636; font-size: 15px; font-weight: 500; 
         display: inline-block; margin-bottom: 25px; cursor: pointer;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) label,
+    .checkOutpayContainer form > div > div:nth-of-type(5) label,
     #addrBefore span label,
     .accountJoin div div form ul li:nth-of-type(5) label{
         background-image: url('../images/ico_check_before.png'); background-repeat: no-repeat;
@@ -2395,29 +2395,29 @@
     .accountJoin div div form ul li:nth-of-type(5) label{
         background-position: left center; padding-left: 30px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) label{
+    .checkOutpayContainer form > div > div:nth-of-type(5) label{
         background-position: right center; padding-right: 30px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) input[type="checkbox"],
+    .checkOutpayContainer form > div > div:nth-of-type(5) input[type="checkbox"],
     #addrBefore span input[type='checkbox'],
     .accountJoin div div form ul li:nth-of-type(5) input[type='checkbox']{
         display: none;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) input[type="checkbox"]:checked+label{
+    .checkOutpayContainer form > div > div:nth-of-type(5) input[type="checkbox"]:checked+label{
         background: url('../images/ico_check_after.png')no-repeat right center;
     }
     #addrBefore span input[type='checkbox']:checked+label,
     .accountJoin div div form ul li:nth-of-type(5) input[type='checkbox']:checked+label{
         background: url('../images/ico_check_after.png')no-repeat left center;
     }
-    .checkOutContainer form > div > div:nth-of-type(5){
+    .checkOutpayContainer form > div > div:nth-of-type(5){
         margin-bottom: 45px; font-size: 12px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) p{
+    .checkOutpayContainer form > div > div:nth-of-type(5) p{
         color: #bfbfbf; font-weight: 400; line-height: 18px;
         margin-bottom: 15px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) a{
+    .checkOutpayContainer form > div > div:nth-of-type(5) a{
         display: block; color: #68b5f9;
     }
     .paymentContainer h2 small{
@@ -2508,34 +2508,34 @@
     .paymentContainer form div div:nth-of-type(2) div > ul li:nth-of-type(4){
         margin-left: 2%;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li{
         display: block;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li:first-of-type{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li:first-of-type{
         margin-bottom: 30px;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li label{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li label{
         cursor: pointer;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li input[type='radio']{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li input[type='radio']{
         display: none;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li input[type='radio']:checked+label{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li input[type='radio']:checked+label{
         background: url('../images/ico_circle_active.png')no-repeat left center;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li label{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li label{
         background: url('../images/ico_circle_pos.png')no-repeat left center; padding-left: 15px;
     }
-    .checkOutContainer form div div:nth-of-type(2) .addrTab{
+    .checkOutpayContainer form div div:nth-of-type(2) .addrTab{
         display: none;
     }
-    .checkOutContainer form div div:nth-of-type(2) .addrTab.active{
+    .checkOutpayContainer form div div:nth-of-type(2) .addrTab.active{
         display: block;
     }
-    .checkOutContainer form div div:nth-of-type(2) a{
+    .checkOutpayContainer form div div:nth-of-type(2) a{
         display: block; font-weight: 500; color: #68b5f9; margin-bottom: 100px;
     }
-    .checkOutContainer form div div:nth-of-type(2) a::before{
+    .checkOutpayContainer form div div:nth-of-type(2) a::before{
         content: url('../images/ico_arrow_hv_pr.png'); display: inline-block;margin-right: 15px;
     }
     #addedAddr{
@@ -2544,7 +2544,7 @@
 
 }
 /* !mobail */
-@media screen and (min-width:768px) and (max-width:1279px) {
+@media screen and (min-width:768px) and (max-width:1279px){
     #login{
         z-index: 10; width: 63%; padding: 50px 6% 25px; box-sizing: border-box; 
         background: url('../images/loginPop_bg.png'); background-position: 24%;
@@ -4481,8 +4481,8 @@
 
     .terms > ol li > ol,
     .terms > ol li blockquote,
-    .ppcontainer > ol li:nth-of-type(2) > ul,
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
+    .ppContainer > ol li:nth-of-type(2) > ul,
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
         padding-left: 2.3%;
     }
 
@@ -4508,40 +4508,40 @@
     .footerTSIndex ol li{
         min-height: 60px;
     }
-    .ppcontainer > ol li > ul:not(.tableList){
+    .ppContainer > ol li > ul:not(.tableList){
         margin: 30px 0;
     }
-    .ppcontainer > ol li > ul:not(.tableList) li:not(:last-of-type),
-    .ppcontainer > ol li > div{
+    .ppContainer > ol li > ul:not(.tableList) li:not(:last-of-type),
+    .ppContainer > ol li > div{
         margin-bottom: 30px;
     }
-    .ppcontainer > ol li:nth-of-type(2) > ul li,
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
+    .ppContainer > ol li:nth-of-type(2) > ul li,
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
         list-style: disc; list-style-position: inside;
     }
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
         margin-bottom: 30px;
     }
-    .ppcontainer > ol li:nth-of-type(2) > ul li::marker,
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li::marker{
+    .ppContainer > ol li:nth-of-type(2) > ul li::marker,
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li::marker{
         font-size: 10px;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList{
+    .ppContainer > ol li:nth-of-type(12) .tableList{
         display: flex; flex-wrap: wrap; margin-top: 30px;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li{
+    .ppContainer > ol li:nth-of-type(12) .tableList li{
         width: 33.33%; padding: 10px 15px; box-sizing: border-box; min-height: 70px;
         text-align: center; display: flex; align-items: center; justify-content: center;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li{
+    .ppContainer > ol li:nth-of-type(12) .tableList li{
      border-bottom: 1px solid #000; border-right: 1px solid #000;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li:nth-of-type(3n+1){
+    .ppContainer > ol li:nth-of-type(12) .tableList li:nth-of-type(3n+1){
         border-left: 1px solid #000;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li:nth-of-type(1),
-    .ppcontainer > ol li:nth-of-type(12) .tableList li:nth-of-type(2),
-    .ppcontainer > ol li:nth-of-type(12) .tableList li:nth-of-type(3){
+    .ppContainer > ol li:nth-of-type(12) .tableList li:nth-of-type(1),
+    .ppContainer > ol li:nth-of-type(12) .tableList li:nth-of-type(2),
+    .ppContainer > ol li:nth-of-type(12) .tableList li:nth-of-type(3){
         border-top: 1px solid #000;
     }
     .tscontainer > ol li:nth-of-type(3) ol li,
@@ -4844,11 +4844,11 @@
     .afterAddr #manageAddr > ul li:nth-of-type(2) span a:last-of-type{
         margin-left: 15%;
     }
-    .checkOutContainer form > div div:nth-child(1),
-    .checkOutContainer form > div div:nth-child(2)>*,
-    .checkOutContainer form > div div:nth-child(3),
-    .checkOutContainer form > div div:nth-child(4),
-    .checkOutContainer form > div div:nth-child(5),
+    .checkOutpayContainer form > div div:nth-child(1),
+    .checkOutpayContainer form > div div:nth-child(2)>*,
+    .checkOutpayContainer form > div div:nth-child(3),
+    .checkOutpayContainer form > div div:nth-child(4),
+    .checkOutpayContainer form > div div:nth-child(5),
     .paymentContainer form > div > div:nth-child(1),
     .paymentContainer form > div > div:nth-child(2),
     .paymentContainer form > div > div:nth-of-type(3){
@@ -4890,90 +4890,90 @@
     .cartBox .sign_Btn{
         max-width: 670px;
     }
-    .checkOutContainer > input,
+    .checkOutpayContainer > input,
     .paymentContainer > input{
         font-family: inherit;
     }
-    .checkOutContainer ul li,
+    .checkOutpayContainer ul li,
     .paymentContainer ul li{
         font-size: 12px;
     } 
-    .checkOutContainer::after,
+    .checkOutpayContainer::after,
     .paymentContainer::after{
         content: ''; display: block; clear: both;
     }
-    .checkOutContainer form input:not(#smsCheck,.sign_Btn),
+    .checkOutpayContainer form input:not(#smsCheck,.sign_Btn),
     .paymentContainer form div div:not(:first-of-type) input{
         border-bottom-color: #545353; border-bottom-width: 1px; width: 100%;
         box-sizing: border-box; line-height: 35px;
     }
-    .checkOutContainer form > div,
+    .checkOutpayContainer form > div,
     .paymentContainer form > div{
         float: left; padding-top: 50px;
     }
-    .checkOutContainer form > div:last-of-type,
+    .checkOutpayContainer form > div:last-of-type,
     .paymentContainer form > div:last-of-type{
         width: 40%;
     }
-    .checkOutContainer form > div:first-of-type,
+    .checkOutpayContainer form > div:first-of-type,
     .paymentContainer form > div:first-of-type{
         width: 55%;
     }
-    .checkOutContainer form > div:last-of-type,
+    .checkOutpayContainer form > div:last-of-type,
     .paymentContainer form > div:last-of-type{
      margin-left: 5%; padding-right: 3.124%; box-sizing: border-box;
     }
-    .checkOutContainer form > div h2,
+    .checkOutpayContainer form > div h2,
     .paymentContainer form > div h2{
         font-size: 15px; font-weight: 600; color: #000; margin-bottom: 35px;
     }
-    .checkOutContainer form > div > div:not(:last-of-type),
+    .checkOutpayContainer form > div > div:not(:last-of-type),
     .paymentContainer form > div > div:not(:last-of-type){
         margin-bottom: 50px; padding-bottom: 50px;
         border-bottom: 1px solid #bfbfbf;
     }
-    .checkOutContainer form > div > div ul{
+    .checkOutpayContainer form > div > div ul{
         box-sizing: border-box;
     }
-    .checkOutContainer form > div > div:nth-of-type(1)::after,
-    .checkOutContainer form > div > div:nth-of-type(4) ul::after{
+    .checkOutpayContainer form > div > div:nth-of-type(1)::after,
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul::after{
         content: ''; display: block; clear: both;
     }
-    .checkOutContainer form > div > div:nth-of-type(1) li{
+    .checkOutpayContainer form > div > div:nth-of-type(1) li{
         width: 48%; float: left; 
     }
-    .checkOutContainer form > div > div:nth-of-type(1) li:not(:last-of-type),
+    .checkOutpayContainer form > div > div:nth-of-type(1) li:not(:last-of-type),
     #addedAddr ul li:not(:last-of-type){
         margin-bottom: 30px;
     }
-    .checkOutContainer form > div > div:nth-of-type(1) li:nth-of-type(2n){
+    .checkOutpayContainer form > div > div:nth-of-type(1) li:nth-of-type(2n){
         margin-left: 4%;
     }
     #addedAddr ul li select{
         font-size: 12px; color: #363636; border-width: 0 0 1px 0; border-color: #363636;
         border-style: solid; width: 100%; padding-bottom: 10px;
     }
-    .checkOutContainer form > div > div:nth-of-type(3) label,
+    .checkOutpayContainer form > div > div:nth-of-type(3) label,
     #addedAddr label{
         display: block;
     }
-    .checkOutContainer form > div > div:nth-of-type(3) input[type='text']{
+    .checkOutpayContainer form > div > div:nth-of-type(3) input[type='text']{
         max-width: 43%;
     } 
-    .checkOutContainer form > div > div:nth-of-type(4) ul >*{
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul >*{
         float: left;
     }
-    .checkOutContainer form > div > div:nth-of-type(4) ul li:not(:first-of-type){
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul li:not(:first-of-type){
         margin-left: 5%;
     }
-    .checkOutContainer form > div > div:nth-of-type(4) ul li{
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul li{
         width: 30%;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) label{
+    .checkOutpayContainer form > div > div:nth-of-type(5) label{
         color: #363636; font-size: 18px; font-weight: 500;
         display: inline-block; margin-bottom: 25px; cursor: pointer;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) label,
+    .checkOutpayContainer form > div > div:nth-of-type(5) label,
     #addrBefore span label,
     .accountJoin div div form ul li:nth-of-type(5) label{
         background-image: url('../images/ico_check_before.png'); background-repeat: no-repeat;
@@ -4982,29 +4982,29 @@
     .accountJoin div div form ul li:nth-of-type(5) label{
         background-position: left center; padding-left: 30px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) label{
+    .checkOutpayContainer form > div > div:nth-of-type(5) label{
         background-position: right center; padding-right: 30px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) input[type="checkbox"],
+    .checkOutpayContainer form > div > div:nth-of-type(5) input[type="checkbox"],
     #addrBefore span input[type='checkbox'],
     .accountJoin div div form ul li:nth-of-type(5) input[type='checkbox']{
         display: none;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) input[type="checkbox"]:checked+label{
+    .checkOutpayContainer form > div > div:nth-of-type(5) input[type="checkbox"]:checked+label{
         background: url('../images/ico_check_after.png')no-repeat right center;
     }
     #addrBefore span input[type='checkbox']:checked+label,
     .accountJoin div div form ul li:nth-of-type(5) input[type='checkbox']:checked+label{
         background: url('../images/ico_check_after.png')no-repeat left center;
     }
-    .checkOutContainer form > div > div:nth-of-type(5){
+    .checkOutpayContainer form > div > div:nth-of-type(5){
         margin-bottom: 45px; font-size: 15px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) p{
+    .checkOutpayContainer form > div > div:nth-of-type(5) p{
         color: #bfbfbf; font-weight: 400; line-height: 20px;
         margin-bottom: 15px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) a{
+    .checkOutpayContainer form > div > div:nth-of-type(5) a{
         display: block; color: #68b5f9;
     }
     .paymentContainer h2 small{
@@ -5100,34 +5100,34 @@
     .paymentContainer form div div:nth-of-type(2) div > ul li:nth-of-type(4){
         margin-left: 4%;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li{
         display: inline-block;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li label{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li label{
         cursor: pointer;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li:not(:first-of-type){
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li:not(:first-of-type){
         margin-left: 60px;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li input[type='radio']{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li input[type='radio']{
         display: none;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li input[type='radio']:checked+label{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li input[type='radio']:checked+label{
         background: url('../images/ico_circle_active.png')no-repeat left center;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li label{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li label{
         background: url('../images/ico_circle_pos.png')no-repeat left center; padding-left: 15px;
     }
-    .checkOutContainer form div div:nth-of-type(2) .addrTab{
+    .checkOutpayContainer form div div:nth-of-type(2) .addrTab{
         display: none;
     }
-    .checkOutContainer form div div:nth-of-type(2) .addrTab.active{
+    .checkOutpayContainer form div div:nth-of-type(2) .addrTab.active{
         display: block;
     }
-    .checkOutContainer form div div:nth-of-type(2) a{
+    .checkOutpayContainer form div div:nth-of-type(2) a{
         display: block; font-weight: 500; color: #68b5f9; margin-bottom: 100px;
     }
-    .checkOutContainer form div div:nth-of-type(2) a::before{
+    .checkOutpayContainer form div div:nth-of-type(2) a::before{
         content: url('../images/ico_arrow_hv_pr.png'); display: inline-block;margin-right: 15px;
     }
     #addedAddr{
@@ -5229,7 +5229,7 @@
         right: 0; cursor: pointer; z-index: 4;
     }
     #cartHave figure::after,#cartHave figure figcaption::after
-    {
+   {
         content: ''; display: block; clear: both;
     }
     #cartHave figure img{
@@ -7349,8 +7349,8 @@
 
     .terms > ol li > ol,
     .terms > ol li blockquote,
-    .ppcontainer > ol li:nth-of-type(2) > ul,
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
+    .ppContainer > ol li:nth-of-type(2) > ul,
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
         padding-left: 1%;
     }
 
@@ -7376,38 +7376,38 @@
     .footerTSIndex ol li{
         min-height: 100px;
     }
-    .ppcontainer > ol li > ul:not(.tableList){
+    .ppContainer > ol li > ul:not(.tableList){
         margin: 30px 0;
     }
-    .ppcontainer > ol li > ul:not(.tableList) li:not(:last-of-type),
-    .ppcontainer > ol li > div{
+    .ppContainer > ol li > ul:not(.tableList) li:not(:last-of-type),
+    .ppContainer > ol li > div{
         margin-bottom: 30px;
     }
-    .ppcontainer > ol li:nth-of-type(2) > ul li,
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
+    .ppContainer > ol li:nth-of-type(2) > ul li,
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
         list-style: disc; list-style-position: inside;
     }
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li{
         margin-bottom: 30px;
     }
-    .ppcontainer > ol li:nth-of-type(2) > ul li::marker,
-    .ppcontainer > ol li:nth-of-type(12) > ul:not(.tableList) li::marker{
+    .ppContainer > ol li:nth-of-type(2) > ul li::marker,
+    .ppContainer > ol li:nth-of-type(12) > ul:not(.tableList) li::marker{
         font-size: 10px;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList{
+    .ppContainer > ol li:nth-of-type(12) .tableList{
         display: flex; flex-wrap: wrap; margin-top: 30px;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li{
+    .ppContainer > ol li:nth-of-type(12) .tableList li{
         width: 14%; padding: 10px 15px; box-sizing: border-box;
         border-right: 1px solid #000; text-align: center; display: flex; align-items: center; justify-content: center;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li:nth-of-type(7n + 1){
+    .ppContainer > ol li:nth-of-type(12) .tableList li:nth-of-type(7n + 1){
         border-left: 1px solid #000;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li{
+    .ppContainer > ol li:nth-of-type(12) .tableList li{
      border-bottom: 1px solid #000;
     }
-    .ppcontainer > ol li:nth-of-type(12) .tableList li:nth-of-type(-n+7){
+    .ppContainer > ol li:nth-of-type(12) .tableList li:nth-of-type(-n+7){
         border-top: 1px solid #000;
     }
     .tscontainer > ol li:nth-of-type(3) ol li,
@@ -7790,11 +7790,11 @@
     .afterAddr #manageAddr > ul li:nth-of-type(2) span a{
         color: inherit; vertical-align: middle; margin-left: 15px;
     }
-    .checkOutContainer form > div div:nth-child(1),
-    .checkOutContainer form > div div:nth-child(2)>*,
-    .checkOutContainer form > div div:nth-child(3),
-    .checkOutContainer form > div div:nth-child(4),
-    .checkOutContainer form > div div:nth-child(5),
+    .checkOutpayContainer form > div div:nth-child(1),
+    .checkOutpayContainer form > div div:nth-child(2)>*,
+    .checkOutpayContainer form > div div:nth-child(3),
+    .checkOutpayContainer form > div div:nth-child(4),
+    .checkOutpayContainer form > div div:nth-child(5),
     .paymentContainer form > div > div:nth-child(1),
     .paymentContainer form > div > div:nth-child(2),
     .paymentContainer form > div > div:nth-of-type(3){
@@ -7842,87 +7842,87 @@
     .cartBox .sign_Btn{
         max-width: 670px;
     }
-    .checkOutContainer > input,
+    .checkOutpayContainer > input,
     .paymentContainer > input{
         font-family: inherit;
     }
-    .checkOutContainer ul li,
+    .checkOutpayContainer ul li,
     .paymentContainer ul li{
         font-size: 15px;
     } 
-    .checkOutContainer::after,
+    .checkOutpayContainer::after,
     .paymentContainer::after{
         content: ''; display: block; clear: both;
     }
-    .checkOutContainer form input:not(#smsCheck,.sign_Btn),
+    .checkOutpayContainer form input:not(#smsCheck,.sign_Btn),
     .paymentContainer form div div:not(:first-of-type) input{
         border-bottom-color: #545353; border-bottom-width: 1px; width: 100%;
         box-sizing: border-box; line-height: 35px;
     }
-    .checkOutContainer form > div,
+    .checkOutpayContainer form > div,
     .paymentContainer form > div{
         float: left; padding-top: 50px;
     }
-    .checkOutContainer form > div:last-of-type,
+    .checkOutpayContainer form > div:last-of-type,
     .paymentContainer form > div:last-of-type{
         width: 40%;
     }
-    .checkOutContainer form > div:first-of-type,
+    .checkOutpayContainer form > div:first-of-type,
     .paymentContainer form > div:first-of-type{
         width: 55%;
     }
-    .checkOutContainer form > div:last-of-type,
+    .checkOutpayContainer form > div:last-of-type,
     .paymentContainer form > div:last-of-type{
      margin-left: 5%; padding-right: 5.2%; box-sizing: border-box;
     }
-    .checkOutContainer form > div h2,
+    .checkOutpayContainer form > div h2,
     .paymentContainer form > div h2{
         font-size: 20px; font-weight: 600; color: #000; margin-bottom: 35px;
     }
-    .checkOutContainer form > div > div:not(:last-of-type),
+    .checkOutpayContainer form > div > div:not(:last-of-type),
     .paymentContainer form > div > div:not(:last-of-type){
         margin-bottom: 50px; padding-bottom: 50px;
         border-bottom: 1px solid #bfbfbf;
     }
-    .checkOutContainer form > div > div ul{
+    .checkOutpayContainer form > div > div ul{
         box-sizing: border-box;
     }
-    .checkOutContainer form > div > div:nth-of-type(1)::after,
-    .checkOutContainer form > div > div:nth-of-type(4) ul::after{
+    .checkOutpayContainer form > div > div:nth-of-type(1)::after,
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul::after{
         content: ''; display: block; clear: both;
     }
-    .checkOutContainer form > div > div:nth-of-type(1) li{
+    .checkOutpayContainer form > div > div:nth-of-type(1) li{
         width: 48%; float: left; 
     }
-    .checkOutContainer form > div > div:nth-of-type(1) li:not(:last-of-type),
+    .checkOutpayContainer form > div > div:nth-of-type(1) li:not(:last-of-type),
     #addedAddr ul li:not(:last-of-type){
         margin-bottom: 30px;
     }
-    .checkOutContainer form > div > div:nth-of-type(1) li:nth-of-type(2n){
+    .checkOutpayContainer form > div > div:nth-of-type(1) li:nth-of-type(2n){
         margin-left: 4%;
     }
     #addedAddr ul li select{
         font-size: 18px; color: #363636; border-width: 0 0 1px 0; border-color: #363636;
         border-style: solid; width: 100%; padding-bottom: 10px;
     }
-    .checkOutContainer form > div > div:nth-of-type(3) label,
+    .checkOutpayContainer form > div > div:nth-of-type(3) label,
     #addedAddr label{
         display: block;
     }
-    .checkOutContainer form > div > div:nth-of-type(3) input[type='text']{
+    .checkOutpayContainer form > div > div:nth-of-type(3) input[type='text']{
         max-width: 43%;
     } 
-    .checkOutContainer form > div > div:nth-of-type(4) ul >*{
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul >*{
         float: left;
     }
-    .checkOutContainer form > div > div:nth-of-type(4) ul li:not(:first-of-type){
+    .checkOutpayContainer form > div > div:nth-of-type(4) ul li:not(:first-of-type){
         margin-left: 2%;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) label{
+    .checkOutpayContainer form > div > div:nth-of-type(5) label{
         color: #363636; font-size: 18px; font-weight: 500;
         display: inline-block; margin-bottom: 25px; cursor: pointer;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) label,
+    .checkOutpayContainer form > div > div:nth-of-type(5) label,
     #addrBefore span label,
     .accountJoin div div form ul li:nth-of-type(5) label{
         background-image: url('../images/ico_check_before.png'); background-repeat: no-repeat;
@@ -7931,32 +7931,32 @@
     .accountJoin div div form ul li:nth-of-type(5) label{
         background-position: left center; padding-left: 30px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) label{
+    .checkOutpayContainer form > div > div:nth-of-type(5) label{
         background-position: right center; padding-right: 30px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) input[type="checkbox"],
+    .checkOutpayContainer form > div > div:nth-of-type(5) input[type="checkbox"],
     #addrBefore span input[type='checkbox'],
     .accountJoin div div form ul li:nth-of-type(5) input[type='checkbox']{
         display: none;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) input[type="checkbox"]:checked+label{
+    .checkOutpayContainer form > div > div:nth-of-type(5) input[type="checkbox"]:checked+label{
         background: url('../images/ico_check_after.png')no-repeat right center;
     }
     #addrBefore span input[type='checkbox']:checked+label,
     .accountJoin div div form ul li:nth-of-type(5) input[type='checkbox']:checked+label{
         background: url('../images/ico_check_after.png')no-repeat left center;
     }
-    .checkOutContainer form > div > div:nth-of-type(5){
+    .checkOutpayContainer form > div > div:nth-of-type(5){
         margin-bottom: 45px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) p{
+    .checkOutpayContainer form > div > div:nth-of-type(5) p{
         color: #bfbfbf; font-weight: 400; line-height: 20px;
         margin-bottom: 15px;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) a{
+    .checkOutpayContainer form > div > div:nth-of-type(5) a{
         display: block; color: #68b5f9;
     }
-    .checkOutContainer form > div > div:nth-of-type(5) a:hover{
+    .checkOutpayContainer form > div > div:nth-of-type(5) a:hover{
         text-decoration: underline;
     }
     .paymentContainer h2 small{
@@ -8049,34 +8049,34 @@
     .paymentContainer form div div:nth-of-type(2) div > ul li:nth-of-type(4){
         margin-left: 4%;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li{
         display: inline-block;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li label{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li label{
         cursor: pointer;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li:not(:first-of-type){
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li:not(:first-of-type){
         margin-left: 60px;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li input[type='radio']{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li input[type='radio']{
         display: none;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li input[type='radio']:checked+label{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li input[type='radio']:checked+label{
         background: url('../images/ico_circle_active.png')no-repeat left center;
     }
-    .checkOutContainer form div div:nth-of-type(2) > ul li label{
+    .checkOutpayContainer form div div:nth-of-type(2) > ul li label{
         background: url('../images/ico_circle_pos.png')no-repeat left center; padding-left: 15px;
     }
-    .checkOutContainer form div div:nth-of-type(2) .addrTab{
+    .checkOutpayContainer form div div:nth-of-type(2) .addrTab{
         display: none;
     }
-    .checkOutContainer form div div:nth-of-type(2) .addrTab.active{
+    .checkOutpayContainer form div div:nth-of-type(2) .addrTab.active{
         display: block;
     }
-    .checkOutContainer form div div:nth-of-type(2) a{
+    .checkOutpayContainer form div div:nth-of-type(2) a{
         display: block; font-weight: 500; color: #68b5f9; margin-bottom: 100px;
     }
-    .checkOutContainer form div div:nth-of-type(2) a::before{
+    .checkOutpayContainer form div div:nth-of-type(2) a::before{
         content: url('../images/ico_arrow_hv_pr.png'); display: inline-block;margin-right: 15px;
     }
     #addedAddr{

@@ -17,17 +17,16 @@ $(function(){
     snsToggle('.toggleLike');
     snsToggle('.mainContainer > div:nth-of-type(5) > div');
 
-
     foldMenu(".foldMenu li span+input[type='button']",".foldMenu ol");
 
     accordion(".accordionQA li b");
     accordionMenu("#gnb > div > div");
 
     tabUI(".tabMenu01 li",".freeList");
-    tabUI(".bottleDesignTap ul li",".bottleDesignTap ul:last-of-type li");
+    tabUI(".bottleDesignTap ul:first-of-type li",".bottleDesignTap ul:last-of-type li");
     tabUI(".mypage aside ul li",".accountTab");
     tabUI(".paymentContainer form div div:nth-of-type(2) > ul li",".paymentTab");
-    tabUI(".checkOutContainer form div div:nth-of-type(2) > ul li",".addrTab");
+    tabUI(".checkOutpayContainer form div div:nth-of-type(2) > ul li",".addrTab");
     tabUI02("#emptyAddr input",'.addrTab');
     tabUI02("#addrBefore input[type='button']",'.addrTab');
 
@@ -240,11 +239,11 @@ function good(reco){
         $(this).attr("value",count01+1);
         $(this).siblings().attr("disabled",reve);
 
-        if(classN == 'btnUp color'){  
+        if(classN == 'oswWRF20 btnUp color'){  
             $(this).removeClass('color');
             $(this).attr("value",count01-1);
             $(this).siblings().attr("disabled",!reve);
-        }else if(classN =='btnDown color'){
+        }else if(classN =='oswWRF20 btnDown color'){
             $(this).removeClass('color');
             $(this).attr("value",count01-1);
             $(this).siblings().attr("disabled",!reve);
