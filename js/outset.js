@@ -42,6 +42,7 @@ $(function(){
     goMenu('.barMenu li:nth-of-type(4) a','.reviews');
 
     addr(".afterAddr #manageAddr > ul li>*:nth-child(6) input[type='button']");
+    portfolio('.portfolioPop .btnClose');
 });
 
 function customSlider01(target,currentIndex,maxIndex,pagerBool){
@@ -252,5 +253,11 @@ function good(reco){
 
 }
 
-
+function portfolio(targetBtn){
+    $(targetBtn).click(function(){
+        $('.portfolioPop').css({
+            'display':'none'
+        });
+    });
+}
  
